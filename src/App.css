@@ -1,7 +1,20 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 100vh;
+  background: url('./rick.webp');
+  background-size: cover;
+  padding: 10%;
+  box-sizing: border-box;
 }
-
+ h1, iframe {
+  margin: auto;
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+ }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
