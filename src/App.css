@@ -1,51 +1,48 @@
-.App {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 100vw;
-  height: 100vh;
-  background: url('./rick.webp');
-  background-size: cover;
-  padding: 10%;
-  box-sizing: border-box;
-}
- h1, iframe {
-  margin: auto;
-  color: antiquewhite;
-  font-family: Arial, Helvetica, sans-serif;
- }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App{
+  background-color: rgb(18, 18, 18);
+  width: 100%;
+  height: 100%;
+  position: fixed;
   color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+font-weight: 200;
+}
+p{
+  letter-spacing: 7px;
+  text-align: justify;
+}
+.normal-text {
+  width: 50%;
+  min-width: 380px;
+  max-width: 700px;
+  margin: auto;
+  height: fit-content;
+}
+#options-container{
+  width: 50%;
+  min-width: 380px;
+  max-width: 700px;
+  margin: auto;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.options-text {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 33.3%;
+  padding: 1rem;
+  box-shadow: 0.15rem 0.15rem 0px 3px rgb(216, 216, 216);
+  cursor: pointer;
+  transition: 1s ease all;
+  box-sizing: border-box;
+  background-color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.options-text:hover {
+  background-color: rgba(255, 255, 255, 0.123);
 }

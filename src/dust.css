@@ -1,0 +1,33 @@
+#dust-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 1000000;
+    animation: rotate 3s linear infinite;
+}
+
+.dust-mote {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: rgba(210, 210, 210, 0.392);
+    border-radius: 50%;
+    transform-origin: 200% 200%;
+    animation: floatAnimation linear forwards;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(100vh) rotate(0deg);
+        opacity: 0.4;
+    }
+    80% {
+        opacity: 0.9;
+    }
+    100% {
+        transform: translateY(0vh) rotate(700deg);
+        opacity: 0;
+    }
+    
+}

@@ -1,0 +1,341 @@
+{
+    "1": [
+        {
+            "text": "The first thing you are aware of is a splash and complete blackness. Blinking, you question the functionality of your eyes amidst the stinging touch of salt water. Movement assures you that your eyes are intact, offering a tenuous connection to reality.",
+            "timer": 20000
+        },
+        {
+            "text": "The cold seizes your nervous system, panic and shock take hold. Breathing becomes impossible, and surreal sensations flood your consciousness—whistling screams, earth-shaking thumps, and vivid, indefinable shapes dancing across your vision. Limbs flail aimlessly, seeking something to grasp but finding only emptiness.",
+            "timer": 20000
+        },
+        {
+            "text": "With the last of the air expunged from your lungs, there is nothing to indicate your water submerged state, only the memory of that first splash. You begin to wonder if you are floating in limbo or water, not quite dead, but still just alive enough to process the final few abstract thoughts.",
+            "timer": 20000
+        },
+        {
+            "text": "Inexplicably your feet seem to land flat and true, which, given your certainty that you were on the edge of nothingness, floating in cold silent darkness seems odd. Though the chill remains, it's more bearable. Your senses, however, betray you; ears hear nothing, eyes fixate on an endless void, and the compulsion to breathe dissipates. Attempts to breathe result in a mockery, a chest movement devoid of life's rhythmic expansion and contraction.",
+            "timer": 20000
+        },
+        {
+            "continuity-text": "Where you expected to land softly in sand, or, to float deeper into limbo, slowly compressing to a single point of existence in an unimaginable infinity of dark, you instead land on a hard flat surface.",
+            "options": [
+                {
+                    "text": "Sink to your knees in despair.",
+                    "action": "You give up the remaining hope that bolstered your stance and sink slowly to your knees.",
+                    "timer": 10000
+                },
+                {
+                    "text": "Pick any direction and walk into the abyss, slowly becoming one with it.",
+                    "action": "Your senses become increasingly confused and although you sense some motion in your short steps, you find it impossible not to lose orientation and you fall forward.",
+                    "timer": 10000
+                },
+                {
+                    "text": "Swim straight up, if up exists here. If you sank here, then maybe there's still a surface to swim back to.",
+                    "action": "You swim straight up, at least you think you do. Within seconds you become disoriented and your hands bump into something. Your body follows and as you come to rest you realise you have come back to the bottom again.",
+                    "timer": 10000
+                }
+            ]
+        },
+        {
+            "text": "The hard, smooth surface beneath your hands and feet radiates warmth unexpectedly, evoking a familiar sense of life—an abstract reminder of your own existence.",
+            "timer": 10000
+        },
+        {
+            "text": "\"What are you doing here?\"",
+            "timer": 5000
+        },
+        {
+            "options": [
+                {
+                    "text": "You try your voice, \"Who are you?\"",
+                    "action": "The muscles in your jaw snap your mouth open and closed, but it only seems to dampen the silence even more.",
+                    "timer": 7500
+                },
+                {
+                    "text": "Ignore it, this is just another sensory trick.",
+                    "action": "You stand in place, it's impossible that anything could detect you in this void.",
+                    "timer": 7500
+                },
+                {
+                    "text": "Lash out, what have you got to lose?",
+                    "action": "You flail your arms in all directions, but find no contact.",
+                    "timer": 7500
+                }
+            ]
+        },
+        {
+            "text": "The voice spoke again, \"I'm with you\".",
+            "timer": 5000
+        },
+        {
+            "text": "The voice echoes through the abyssal void, its eerie resonance sending shivers down your spine. It feels both distant and unnervingly close, as if the emptiness itself is speaking. You ponder the implications of its presence in this vacant realm, where reality seems to dither away at its edges.",
+            "timer": 17500
+        },
+        {
+            "text": "A subtle vibration moves the water all at once, agitating your skin, and the once hard, smooth surface beneath you begins to shift. It transforms into an undulating mass, pulsating with frenetic energy. The warmth it radiates turns into a discomforting heat, making you forget the life it reminded you of, now symnbolising only pain.",
+            "timer": 17500
+        },
+        {
+            "text": "Rapidly your physical form disippates, becoming at one with the energy and your ability to think becomes thinly abstract with reality. With no physical form remaining, there is no heat to feel against your skin anymore. You sense only an existence like a cold damp breeze whistling through ancient stone.",
+            "timer": 17500
+        },
+        {
+            "text": "You shift within your existence, and the universe shifts with you. 2000 years pass by and planets shift in and out of existence.",
+            "timer": 7500
+        },
+        {
+            "options": [
+                {
+                    "text": "Shape reality",
+                    "action": "You summon the dimensions into your ethereal control, but you are yet to master the art. You struggle to wrestle with the chaos in your power.",
+                    "timer": 10000,
+                    "story-level": 2,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Restart reality",
+                    "action": "...",
+                    "timer": 10000,
+                    "story-level": 1,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Reconnect with your corporeal form",
+                    "action": "You feel as though you are being compacted down into nothingness, atoms gather together with a feeling like the pressure of worlds colliding, lungs inflate from nothing, life is blown into you like atomic bomb filling the gathered molecules. You sense yourself falling, air rushing past your ears, eyes seeing nothing but darkness.",
+                    "timer": 17500,
+                    "story-level": 3,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "2": [
+        {
+            "options": [
+                {
+                    "text": "Bring light to the darkness",
+                    "action": "Every consciousness in your dissipated anti-form screams with effort as the universe glows just a little brighter for only a few thousand millenia, you see everything all at once, unused to this, it passes too quickly to make sense of it, and you barely register a blink.",
+                    "timer": 17500,
+                    "story-level": 4,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Allow the dimensions to flux in the tides of reality.",
+                    "action": "As you allow the dimensions to flux in the tides of reality, the cosmos undergoes a profound transformation. Boundaries between dimensions blur, creating a constant state of flux. Spatial and temporal perceptions become distorted, leading to a surreal and ever-changing environment. Your own self, whatever it is or was, drifts between coporeal and ethereal form causing physical and mental torment that is unimaginable to a mere human mind.",
+                    "timer": 20000,
+                    "story-level": 5,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Stop time.",
+                    "action": "You make a fundamental mistake, in assuming that you have stopped time, you have actually destroyed time itself. Matter itself entirely disintegrates as particles are no longer held together, and the tides of reality gently drift into atoms causing them to simply separate.",
+                    "timer": 15000,
+                    "story-level": 6,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "3": [
+        {
+            "text": "You once again occupy your physical being, something is different though. You sense more than you could before.",
+            "timer": 7000
+        },
+        {
+            "text": "You are still unable to see in this absolute darkness, but you feel the surface beneath your feet, and unlike before you sense the texture of the ground, every tiny pit and rise of the surface can be felt.",
+            "timer": 7500
+        },
+        {
+            "text": "Although you hear nothing, you sense minute vibrations in the water as though your entire being is acting as a radar. Thousands of miles of expanse lay out around you, endlessly deep ravines split the ground in places, and unknown structures reach to the surface. You sense nothing beyond the surface. It feels to you like the edge of the universe, undefined, shapeless, or rather of no fixed shape or dimensions.",
+            "timer": 20000
+        },
+        {
+            "text": "You sense something real. Something from the depths of your memory, from reality. A handle occupies a fixed position in space a few thousand steps to your left. A handle attached to a door. You don't sense anything around or beyond the door, other than the void though.",
+            "timer": 15000
+        },
+        {
+            "text": "The voice again, as though inside your hid instructs you, \"Go to the door\"",
+            "timer": 5000
+        },
+        {
+            "options": [
+                {
+                    "text": "Move to the door and knock",
+                    "action": "You hear nothing, but sense the vibrations rippling through the water like depth charges shaking the sea bed.",
+                    "timer": 5000,
+                    "story-level": 7,
+                    "chapter-level": 1
+                },
+                {
+                    "text": "Move to the door and try the handle",
+                    "action": "The handle drops away from the surface as though previously only suspended in time, rather than fixed to the door. You sense it fall slowly to the ground. Was that a quiet thump as it hit the ground, or just your expectation?",
+                    "timer": 8000,
+                    "story-level": 7,
+                    "chapter-level": 2
+                },
+                {
+                    "text": "Suspicious of a free standing underwater door, shift your senses elsewhere",
+                    "action": "As though the door had been designed to distract you while the environment shifted surreptitiously around you, you can no longer sense anything but the vastness of the hard ground beneath you, and whatever direction you turn your attention to, a handle, suspended in space, attached to a door.",
+                    "timer": 12000,
+                    "story-level": 7,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "4": [
+        {
+            "text": "In the aftermath of that fleeting blaze, a pervasive sense of powerlessness blankets your being, leaving you more incapacitated than ever in capturing the light. It seems the exertion exacts a toll, trading the brief brilliance for a lasting sacrifice. The universe and all within it now echo like muted ears after a thunderous explosion. Yet, the disquieting truth emerges — this damage is irrevocable, a haunting permanence embedded in the very fabric of existence.",
+            "timer": 20000
+        },
+        {
+            "text": "You cast your senses around, searching for any spark, glimmer, glisten of remaining light, but find only absence.",
+            "timer": 5000
+        },
+        {
+            "text": "Eternity drained of energy, nothing is left to hold back the decay of reality. Your search efforts cause time to run through the cracks of space, until existence merely vanishes.",
+            "timer": 7500
+        },
+        {
+            "text": ".",
+            "timer": 1000
+        },
+        {
+            "text": "..",
+            "timer": 1000
+        },
+        {
+            "text": "...",
+            "timer": 1000
+        },
+        {
+            "text": "A void looks out upon nothing, darkness casts shadows upon itself. The absence is unable to sustain itself, the very nature of everything being curious about 'what else?'. With an almost imperceptible sound like a tree cracking under the strain of high wind, reality, like a rubber band, once again snaps into existence.",
+            "timer": 15000
+        },
+        {
+            "options": [
+                {
+                    "text": "Fall",
+                    "action": "You are without awareness, merely a gathering cluster of atoms rushing through the air, gaining speed, form and existence.",
+                    "timer": 5000,
+                    "story-level": 1,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "5": [
+        {
+            "text": "Energy is neither created nor destroyed, but symbioses form everywhere, melding and becoming greater than the sum of their component parts. Harmonics form in the chaotic threads, providing brief points of clarity, allowing you to navigate back to reality.",
+            "timer": 12000
+        },
+        {
+            "options": [
+                {
+                    "text": "Sense your physical being and attempt to reconnect.",
+                    "action": "With immesnse difficulty, you reconnect with your body. Squeezing your consciousness between the particles, finding the correct resting place for each and every aspect of your being. The energy required leaves your mind blank, unaware of this process.",
+                    "timer": 10000,
+                    "story-level": 1,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Attempt to use the harmonising powers to bring light to the darkness.",
+                    "action": "A pop like a fuse blowing and then nothing.",
+                    "timer": 5000,
+                    "story-level": 1,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Attempt to remember your humanity.",
+                    "action": "The sensation of rushing air comes and goes as you attempt to remember, the connection starts and stops. Suddenly you snap back.",
+                    "timer": 10000,
+                    "story-level": 1,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "6": [
+        {
+            "text": "With time arrested, the universe unfolds in a singular, eternal moment, obliterating the familiar divisions of seconds and centuries. Entities, once adept at slipping through temporal crevices, now stand exposed and vulnerable. Their consciousness stretches beyond the conventional boundaries of reality, revealing a raw and unsettling truth. Titans, interconnected in this unbounded present, witness the entirety of their existence, from inception to termination, casting aside the veils that once shrouded the mysteries between birth and demise.",
+            "timer": 20000
+        },
+        {
+            "text": "At once it becomes clear that these are the presences of gods. Transdimensional energies that remain hidden in time, sliding between moments to prevent their detection. Their very materialization at a specific temporal juncture would inexorably siphon the life force from all existence, rendering a desolate husk in their wake.",
+            "timer": 15000
+        },
+        {
+            "text": "As time stands still, gods linger in the shadows, drawing essence from other realms. An eerie quiet blankets the cosmic theater, a macabre ritual playing out in the silence. The gods, silent orchestrators, pull unseen threads, knitting together a reality woven with threads of darkness. The air thickens with anticipation, an unsettling calm preceding an ominous storm.",
+            "timer": 17500
+        },
+        {
+            "text": "In the hushed aftermath of their spectral feast, the gods, satiated with energies pilfered from alien dimensions, release a whisper into the cosmic abyss. In that ethereal murmur, the universe stirs, a haunting prelude to creation. Threads of shadow intertwine with primordial forces, forging the fabric of existence. The void trembles as reality unravels, and in the pregnant pause of cosmic breath, you, reborn, materialize on the brink of this newfound universe.",
+            "timer": 20000
+        },
+        {
+            "options": [
+                {
+                    "text": "Fall",
+                    "action": "Stretched thin, like overworked metal, your fragile frame hurtles towards the jet black surface.",
+                    "timer": 5000,
+                    "story-level": 1,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "7": [
+        {
+            "text": "You feel as though there is no option but to move to do the door.",
+            "timer": 5000
+        },
+        {
+            "text": "The door cracks open, almost imperceptibly, but you sense it.",
+            "timer": 5000
+        },
+        {
+            "text": "Finally that voice again, \"Come forth,\" it says.",
+            "timer": 5000
+        },
+        {
+            "options": [
+                {
+                    "text": "Go forth",
+                    "action": "You pass through the door, and immediately sense that the surrounding water is no more. You turn in place, light finally coming to your fatigued and unused eyes. Doors on every surface, small, gigantic, wooden, plastic and completely unidentifiable materials.",
+                    "timer": 10000,
+                    "story-level": 8,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "8": [
+        {
+            "text": "You turn back to see where you had passed through, but you find yourself in the middle of the space, as though transported.",
+            "timer": 5000
+        },
+        {
+            "text": "Rushing about, you find that no door is accessible. There isn't so much as a hint of a rattle as you try the handles. These don't appear to be functional doors, rather static set pieces.",
+            "timer": 7500
+        },
+        {
+            "text": "Eventually you come across a hatch in amongst the doors on the ground. You hear a faint rattle of the hinges as something moves the wood gently but perceptibly.",
+            "timer": 5000
+        },
+        {
+            "text": "You easily manage to throw the door back and stare down into the abyss. You hear the sound of water lapping, and waves gently rolling far below. As if against your own will, you jump through the door, hearing the wooden frame snap shut overhead.",
+            "timer": 7500
+        },
+        {
+            "options": [
+                {
+                    "text": "Try to remember all that has happened",
+                    "action": "\"Forget,\" the voice instructs you.",
+                    "timer": 5000,
+                    "story-level": 1,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ]
+}
