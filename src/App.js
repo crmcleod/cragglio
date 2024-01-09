@@ -7,7 +7,6 @@ function App() {
 
   const [currentText, setCurrentText] = useState(null);
   const [currentOptions, setCurrentOptions] = useState(null)
-  const [timer, setTimer] = useState(0)
   const [storyLevel, setStoryLevel] = useState(1)
   const [currentChapterLevel, setCurrentChapterLevel] = useState(0)
 
@@ -16,7 +15,7 @@ function App() {
       setCurrentText(text[`${storyLevel}`]?.[currentChapterLevel]?.text)
       const timeOut = setTimeout(() => {
         setCurrentChapterLevel(currentChapterLevel + 1)
-      }, (text[`${storyLevel}`]?.[currentChapterLevel]?.text.split(' ').length*300) + 2000)
+      }, (text[`${storyLevel}`]?.[currentChapterLevel]?.text.split(' ').length * 330) + 2000)
       // }, 400)
     }
     else
@@ -27,47 +26,46 @@ function App() {
   }, [currentChapterLevel, storyLevel])
 
   const advanceStory = (chapterLevel, storyLevel) => {
-      setCurrentChapterLevel(chapterLevel)
-      setStoryLevel(storyLevel)
+    setCurrentChapterLevel(chapterLevel)
+    setStoryLevel(storyLevel)
   }
 
   const handleOptionClick = (e) => {
-    setCurrentText(currentOptions?.options?.[e]?.action + (currentOptions?.['continuity-text'] ? (' ' + currentOptions['continuity-text']) : ''))
+
     const tempOptions = currentOptions;
     setCurrentOptions(null)
-    
+    setCurrentText(tempOptions?.options?.[e]?.action + (tempOptions?.['continuity-text'] ? (' ' + tempOptions['continuity-text']) : ''))
     setTimeout(() => {
       tempOptions?.options?.[e]?.hasOwnProperty('chapter-level') ?
-      advanceStory(currentOptions?.options?.[e]['chapter-level'], currentOptions?.options?.[e]['story-level']) :
-      setCurrentChapterLevel(currentChapterLevel + 1)
-    }, (((currentOptions?.['continuity-text'] ? currentOptions?.['continuity-text'] : ' ') + currentOptions?.options?.[e]?.text.split(' ').length ) * 300) + 4000)
-  // }, 400)
+        advanceStory(tempOptions?.options?.[e]['chapter-level'], tempOptions?.options?.[e]['story-level']) :
+        setCurrentChapterLevel(currentChapterLevel + 1)
+    }, (((((tempOptions?.['continuity-text'] ? tempOptions?.['continuity-text'] : ' ') + (tempOptions?.options?.[e]?.action)).split(' ')).length) * 330) + 2000)
 
   }
 
   return (
     <>
       <Dust />
-    <div className='App'>
-      {
-        currentText &&
-        <p key={currentChapterLevel + storyLevel + currentOptions?.length} className='normal-text'>
-          {currentText}
-        </p>
-      }
-      {currentOptions &&
-        <div id='options-container'>
-          {currentOptions.options.map((x, i) => {
-            return (
-              <p key={i + new Date().getTime()} onClick={() => handleOptionClick(i)} className='options-text'>
-                {x.text}
-              </p>
-            )
-          })}
-        </div>
-      }
-    </div>
-      </>
+      <div className='App'>
+        {
+          currentText &&
+          <p key={currentChapterLevel + storyLevel + currentOptions?.length} className='normal-text'>
+            {currentText}
+          </p>
+        }
+        {currentOptions &&
+          <div id='options-container'>
+            {currentOptions.options.map((x, i) => {
+              return (
+                <p key={i + new Date().getTime()} onClick={() => handleOptionClick(i)} className='options-text'>
+                  {x.text}
+                </p>
+              )
+            })}
+          </div>
+        }
+      </div>
+    </>
   );
 }
 
