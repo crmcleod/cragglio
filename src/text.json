@@ -13,7 +13,7 @@
             "timer": 20000
         },
         {
-            "text": "Inexplicably your feet seem to land flat and true, which, given your certainty that you were on the edge of nothingness, floating in cold silent darkness seems odd. Though the chill remains, it's more bearable. Your senses, however, betray you; ears hear nothing, eyes fixate on an endless void, and the compulsion to breathe dissipates. Attempts to breathe result in a mockery, a chest movement devoid of life's rhythmic expansion and contraction.",
+            "text": "Inexplicably your feet land flat and true, which, given your certainty that you were on the edge of nothingness, floating in cold, silent darkness, seems odd. Though the chill remains, it's more bearable. Your senses, however, betray you; ears hear nothing, eyes fixate on an endless void, and the compulsion to breathe dissipates. Attempts to breathe result in a mockery, a chest movement devoid of life's rhythmic expansion and contraction.",
             "timer": 20000
         },
         {
@@ -37,7 +37,7 @@
             ]
         },
         {
-            "text": "The hard, smooth surface beneath your hands and feet radiates warmth unexpectedly, evoking a familiar sense of life—an abstract reminder of your own existence.",
+            "text": "The hard, smooth surface beneath your hands and feet radiates warmth unexpectedly, evoking a familiar sense of life — an abstract reminder of your own existence.",
             "timer": 10000
         },
         {
@@ -68,7 +68,7 @@
             "timer": 5000
         },
         {
-            "text": "The voice echoes through the abyssal void, its eerie resonance sending shivers down your spine. It feels both distant and unnervingly close, as if the emptiness itself is speaking. You ponder the implications of its presence in this vacant realm, where reality seems to dither away at its edges.",
+            "text": "It echoes through the abyssal void, its eerie resonance sending shivers down your spine. It feels both distant and unnervingly close, as if the emptiness itself is speaking. You ponder the implications of its presence in this vacant realm, where reality seems to dither away at its edges.",
             "timer": 17500
         },
         {
@@ -76,11 +76,11 @@
             "timer": 17500
         },
         {
-            "text": "Rapidly your physical form disippates, becoming at one with the energy and your ability to think becomes thinly abstract with reality. With no physical form remaining, there is no heat to feel against your skin anymore. You sense only an existence like a cold damp breeze whistling through ancient stone.",
+            "text": "Rapidly your physical form disippates, becoming at one with the energy. Your ability to think becomes thinly abstract with reality. With no physical form remaining, there is no heat to feel against your skin. You sense only an existence like a cold damp breeze whistling through ancient stone.",
             "timer": 17500
         },
         {
-            "text": "You shift within your existence, and the universe shifts with you. 2000 years pass by and planets shift in and out of existence.",
+            "text": "You shift within your now absent being, and the universe shifts with you. 20000 years pass by and planets shift in and out of existence.",
             "timer": 7500
         },
         {
@@ -101,7 +101,7 @@
                 },
                 {
                     "text": "Reconnect with your corporeal form",
-                    "action": "You feel as though you are being compacted down into nothingness, atoms gather together with a feeling like the pressure of worlds colliding, lungs inflate from nothing, life is blown into you like atomic bomb filling the gathered molecules. You sense yourself falling, air rushing past your ears, eyes seeing nothing but darkness.",
+                    "action": "You feel as though you are compacted down into nothingness, atoms gather together with the pressure of worlds colliding, lungs inflate from nothing, life is blown into you like detonated atomic bombs filling the gathered molecules. You sense yourself falling, air rushing past your ears, eyes seeing nothing but darkness.",
                     "timer": 17500,
                     "story-level": 3,
                     "chapter-level": 0
@@ -114,21 +114,21 @@
             "options": [
                 {
                     "text": "Bring light to the darkness",
-                    "action": "Every consciousness in your dissipated anti-form screams with effort as the universe glows just a little brighter for only a few thousand millenia, you see everything all at once, unused to this, it passes too quickly to make sense of it, and you barely register a blink.",
+                    "action": "Every consciousness in your dissipated anti-form screams with effort as the universe glows just a little brighter for only a few thousand millenia. You see everything all at once, unused to this, it passes too quickly to make sense of it, and you barely register a blink.",
                     "timer": 17500,
                     "story-level": 4,
                     "chapter-level": 0
                 },
                 {
                     "text": "Allow the dimensions to flux in the tides of reality.",
-                    "action": "As you allow the dimensions to flux in the tides of reality, the cosmos undergoes a profound transformation. Boundaries between dimensions blur, creating a constant state of flux. Spatial and temporal perceptions become distorted, leading to a surreal and ever-changing environment. Your own self, whatever it is or was, drifts between coporeal and ethereal form causing physical and mental torment that is unimaginable to a mere human mind.",
+                    "action": "As you allow the dimensions to flux in the tides of reality, the cosmos undergoes a profound transformation. Boundaries between dimensions blur, creating a constant state of flux. Spatial and temporal perceptions become distorted, leading to a surreal and ever-changing environment. Your own self, whatever it is or was, drifts between a coporeal and ethereal form, causing physical and mental torment previously unimaginable to you.",
                     "timer": 20000,
                     "story-level": 5,
                     "chapter-level": 0
                 },
                 {
                     "text": "Stop time.",
-                    "action": "You make a fundamental mistake, in assuming that you have stopped time, you have actually destroyed time itself. Matter itself entirely disintegrates as particles are no longer held together, and the tides of reality gently drift into atoms causing them to simply separate.",
+                    "action": "You make a fundamental mistake, in assuming that you have paused time, you have destroyed time itself. Matter entirely disintegrates as particles are no longer held together, the tides of reality gently drift into atoms causing them to simply separate.",
                     "timer": 15000,
                     "story-level": 6,
                     "chapter-level": 0
@@ -142,15 +142,15 @@
             "timer": 7000
         },
         {
-            "text": "You are still unable to see in this absolute darkness, but you feel the surface beneath your feet, and unlike before you sense the texture of the ground, every tiny pit and rise of the surface can be felt.",
+            "text": "You are still unable to see in this absolute darkness, but you feel the surface beneath your feet, and unlike before you sense the texture of the ground, every tiny pit and rise of the surface.",
             "timer": 7500
         },
         {
-            "text": "Although you hear nothing, you sense minute vibrations in the water as though your entire being is acting as a radar. Thousands of miles of expanse lay out around you, endlessly deep ravines split the ground in places, and unknown structures reach to the surface. You sense nothing beyond the surface. It feels to you like the edge of the universe, undefined, shapeless, or rather of no fixed shape or dimensions.",
+            "text": "Although you hear nothing, you sense minute vibrations in the water, your entire being acting as a radar. Thousands of miles of expanse lay around you, endlessly deep ravines split the ground, and unknown structures reach to the surface. You sense nothing beyond the surface. It feels to you like the edge of the universe, undefined, shapeless, of no fixed shape or dimensions.",
             "timer": 20000
         },
         {
-            "text": "You sense something real. Something from the depths of your memory, from reality. A handle occupies a fixed position in space a few thousand steps to your left. A handle attached to a door. You don't sense anything around or beyond the door, other than the void though.",
+            "text": "You sense something real. Something from the depths of your memory, from reality. A handle occupies a fixed position in space a few thousand steps to your left. A handle attached to a door. You don't sense anything around or beyond the door, other than the void.",
             "timer": 15000
         },
         {
@@ -175,7 +175,7 @@
                 },
                 {
                     "text": "Suspicious of a free standing underwater door, shift your senses elsewhere",
-                    "action": "As though the door had been designed to distract you while the environment shifted surreptitiously around you, you can no longer sense anything but the vastness of the hard ground beneath you, and whatever direction you turn your attention to, a handle, suspended in space, attached to a door.",
+                    "action": "As though the door had been designed to distract you while the environment shifted surreptitiously around you, you no longer sense anything but the vastness of the hard ground beneath you. Whatever direction you turn your attention to, a handle, suspended in space, attached to a door.",
                     "timer": 12000,
                     "story-level": 7,
                     "chapter-level": 0
@@ -185,7 +185,7 @@
     ],
     "4": [
         {
-            "text": "In the aftermath of that fleeting blaze, a pervasive sense of powerlessness blankets your being, leaving you more incapacitated than ever in capturing the light. It seems the exertion exacts a toll, trading the brief brilliance for a lasting sacrifice. The universe and all within it now echo like muted ears after a thunderous explosion. Yet, the disquieting truth emerges — this damage is irrevocable, a haunting permanence embedded in the very fabric of existence.",
+            "text": "In the aftermath of that fleeting blaze, a pervasive sense of powerlessness blankets your being, leaving you more incapacitated than ever in capturing the light. It seems the exertion exacts a toll, trading the brief brilliance for a lasting sacrifice. The universe and all within it now echo like muted ears following a thunderous explosion. Yet, the disquieting truth emerges — this damage is irrevocable, a haunting permanence embedded in the very fabric of existence.",
             "timer": 20000
         },
         {
@@ -209,7 +209,7 @@
             "timer": 1000
         },
         {
-            "text": "A void looks out upon nothing, darkness casts shadows upon itself. The absence is unable to sustain itself, the very nature of everything being curious about 'what else?'. With an almost imperceptible sound like a tree cracking under the strain of high wind, reality, like a rubber band, once again snaps into existence.",
+            "text": "A void looks out upon nothing, darkness casts shadows upon itself. The absence is unable to sustain itself, curiosity begins to fill the space pulling existence with it. With an almost imperceptible sound like cracking wood, reality, like a rubber band, once again snaps into existence.",
             "timer": 15000
         },
         {
@@ -233,7 +233,7 @@
             "options": [
                 {
                     "text": "Sense your physical being and attempt to reconnect.",
-                    "action": "With immesnse difficulty, you reconnect with your body. Squeezing your consciousness between the particles, finding the correct resting place for each and every aspect of your being. The energy required leaves your mind blank, unaware of this process.",
+                    "action": "With immense difficulty, you reconnect with your body. Squeezing your consciousness between the particles, finding the correct resting place for each and every aspect of your being. The energy required leaves your mind blank, unaware of this process.",
                     "timer": 10000,
                     "story-level": 1,
                     "chapter-level": 0
@@ -301,7 +301,7 @@
             "options": [
                 {
                     "text": "Go forth",
-                    "action": "You pass through the door, and immediately sense that the surrounding water is no more. You turn in place, light finally coming to your fatigued and unused eyes. Doors on every surface, small, gigantic, wooden, plastic and completely unidentifiable materials.",
+                    "action": "You pass through the door, and immediately sense that the surrounding water is no more. You turn in place, light finally coming to your fatigued and unused eyes. Doors on every surface of all sizes, inexplicably bending space to contain them, and made of all imaginable and unimaginable materials.",
                     "timer": 10000,
                     "story-level": 8,
                     "chapter-level": 0
@@ -311,11 +311,11 @@
     ],
     "8": [
         {
-            "text": "You turn back to see where you had passed through, but you find yourself in the middle of the space, as though transported.",
+            "text": "You turn back to see where you had entered, but you find yourself in the middle of the space, as though transported.",
             "timer": 5000
         },
         {
-            "text": "Rushing about, you find that no door is accessible. There isn't so much as a hint of a rattle as you try the handles. These don't appear to be functional doors, rather static set pieces.",
+            "text": "Rushing around, you find that no door is accessible. There isn't so much as a hint of a rattle as you try the handles. These don't appear to be functional doors, rather static set pieces.",
             "timer": 7500
         },
         {

@@ -9,13 +9,20 @@ function App() {
   const [currentOptions, setCurrentOptions] = useState(null)
   const [storyLevel, setStoryLevel] = useState(1)
   const [currentChapterLevel, setCurrentChapterLevel] = useState(0)
+  const [hidden, setHidden] = useState(true)
 
   useEffect(() => {
     if (text[`${storyLevel}`]?.[currentChapterLevel]?.text) {
-      setCurrentText(text[`${storyLevel}`]?.[currentChapterLevel]?.text)
-      const timeOut = setTimeout(() => {
-        setCurrentChapterLevel(currentChapterLevel + 1)
-      }, (text[`${storyLevel}`]?.[currentChapterLevel]?.text.split(' ').length * 330) + 2000)
+      setTimeout(() => {
+
+        setCurrentText(text[`${storyLevel}`]?.[currentChapterLevel]?.text)
+        setHidden(false)
+        const timeOut = setTimeout(() => {
+          setCurrentChapterLevel(currentChapterLevel + 1)
+          setHidden(true)
+
+        }, (text[`${storyLevel}`]?.[currentChapterLevel]?.text.split(' ').length * 330) + 2000)
+      }, 1500)
       // }, 400)
     }
     else
@@ -49,7 +56,7 @@ function App() {
       <div className='App'>
         {
           currentText &&
-          <p key={currentChapterLevel + storyLevel + currentOptions?.length} className='normal-text'>
+          <p key={currentChapterLevel + storyLevel + currentOptions?.length} className={`normal-text ${hidden ? 'hidden' : 'visible'}`}>
             {currentText}
           </p>
         }
