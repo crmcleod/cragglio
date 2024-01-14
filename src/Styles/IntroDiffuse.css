@@ -4,8 +4,6 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    /* transform: translate(-50%, -50%); */
-    /* overflow: hidden; */
     z-index: 10000;
     border-radius: 50%;
     width: 50%;

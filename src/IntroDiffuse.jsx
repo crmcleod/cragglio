@@ -1,7 +1,7 @@
 // DiffusingPixels.js
 
 import React, { useEffect } from 'react';
-import '../src/IntroDiffuse.css';
+import './Styles/IntroDiffuse.css';
 
 const DiffusingPixels = () => {
   useEffect(() => {

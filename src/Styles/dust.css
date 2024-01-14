@@ -1,7 +1,5 @@
 #dust-container {
     position: fixed;
-    width: 100vw;
-    height: 100vh;
     pointer-events: none;
     z-index: 1000000;
     animation: rotate 3s linear infinite;

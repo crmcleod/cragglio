@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import './dust.css'
+import './Styles/dust.css'
 
 const Dust = () => {
     useEffect(() => {
@@ -24,7 +24,7 @@ const Dust = () => {
             clearInterval(intId);
         }
     }, []);
-    return <div id='dust-container'></div>
+    return <div id='dust-container' className="w100 h100"></div>
 }
 
 export default Dust;
