@@ -1,36 +1,39 @@
 import './App.css';
 import { useState, useEffect } from 'react'
-import text from './text.json'
 import Dust from './Dust';
-
+import axios from 'axios'
 function App() {
 
   const [currentText, setCurrentText] = useState(null);
+  const [text, setText] = useState(null)
   const [currentOptions, setCurrentOptions] = useState(null)
   const [storyLevel, setStoryLevel] = useState(1)
   const [currentChapterLevel, setCurrentChapterLevel] = useState(0)
   const [hidden, setHidden] = useState(true)
 
   useEffect(() => {
-    if (text[`${storyLevel}`]?.[currentChapterLevel]?.text) {
+    axios.get('https://raw.githubusercontent.com/crmcleod/cragglio/main/src/text.json').then(res => setText(res.data))
+  }, [])
+
+  useEffect(() => {
+    if (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text) {
       setTimeout(() => {
 
-        setCurrentText(text[`${storyLevel}`]?.[currentChapterLevel]?.text)
+        setCurrentText(text?.[`${storyLevel}`]?.[currentChapterLevel]?.text)
         setHidden(false)
         const timeOut = setTimeout(() => {
           setCurrentChapterLevel(currentChapterLevel + 1)
           setHidden(true)
 
-        }, (text[`${storyLevel}`]?.[currentChapterLevel]?.text.split(' ').length * 330) + 2000)
+        }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 330) + 2000)
       }, 1500)
-      // }, 400)
     }
     else
-      if (text[`${storyLevel}`]?.[currentChapterLevel]?.options) {
+      if (text?.[`${storyLevel}`]?.[currentChapterLevel]?.options) {
         setCurrentText(null)
         setCurrentOptions(text[`${storyLevel}`]?.[currentChapterLevel])
       }
-  }, [currentChapterLevel, storyLevel])
+  }, [currentChapterLevel, storyLevel, text])
 
   const advanceStory = (chapterLevel, storyLevel) => {
     setCurrentChapterLevel(chapterLevel)
