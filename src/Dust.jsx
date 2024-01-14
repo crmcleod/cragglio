@@ -19,7 +19,7 @@ const Dust = () => {
                 ;
         }
 
-        const intId = setInterval(createDustMote, 400);
+        const intId = setInterval(createDustMote, 300);
         return () => {
             clearInterval(intId);
         }

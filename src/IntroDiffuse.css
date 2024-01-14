@@ -1,0 +1,21 @@
+/* DiffusingPixels.css */
+
+#diffusing-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    /* overflow: hidden; */
+    z-index: 10000;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .diffusing-pixel {
+    position: absolute;
+    background-color: #70318b; /* Adjust the color as needed */
+    border-radius: 50%;
+    z-index: 10000;
+  }
+  

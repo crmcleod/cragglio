@@ -63,3 +63,39 @@ p {
   opacity: 1;
   filter: blur(0px);
 }
+#logo{
+  animation: 10s forwards fade-in-out;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  10%, 60%{
+    opacity: 1
+  }
+  100% {
+    opacity: 0;
+  }
+  }
+
+
+@import url(https://fonts.googleapis.com/css?family=MedievalSharp:regular);
+#menu {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  font-family: 'MedievalSharp';
+  color: rgb(235, 235, 235);
+}
+
+#menu img{
+  width: 60%;
+  cursor: pointer;
+  margin: auto;
+}
+

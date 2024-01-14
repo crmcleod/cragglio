@@ -2,6 +2,8 @@ import './App.css';
 import { useState, useEffect } from 'react'
 import Dust from './Dust';
 import axios from 'axios'
+import DiffusingPixels from './IntroDiffuse';
+import { Menu } from './Menu';
 function App() {
 
   const [currentText, setCurrentText] = useState(null);
@@ -10,30 +12,41 @@ function App() {
   const [storyLevel, setStoryLevel] = useState(1)
   const [currentChapterLevel, setCurrentChapterLevel] = useState(0)
   const [hidden, setHidden] = useState(true)
+  const [inGame, setInGame] = useState(false)
+  const [intro, setIntro] = useState(true)
 
   useEffect(() => {
     axios.get('https://raw.githubusercontent.com/crmcleod/cragglio/main/src/text.json').then(res => setText(res.data))
+    setTimeout(() => {
+      setIntro(false)
+      setTimeout(() => {
+        setInGame(true)
+      }, 10000)
+    }, 12000)
   }, [])
 
   useEffect(() => {
-    if (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text) {
-      setTimeout(() => {
+    if (inGame) {
 
-        setCurrentText(text?.[`${storyLevel}`]?.[currentChapterLevel]?.text)
-        setHidden(false)
-        const timeOut = setTimeout(() => {
-          setCurrentChapterLevel(currentChapterLevel + 1)
-          setHidden(true)
+      if (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text) {
+        setTimeout(() => {
 
-        }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 330) + 2000)
-      }, 1500)
-    }
-    else
-      if (text?.[`${storyLevel}`]?.[currentChapterLevel]?.options) {
-        setCurrentText(null)
-        setCurrentOptions(text[`${storyLevel}`]?.[currentChapterLevel])
+          setCurrentText(text?.[`${storyLevel}`]?.[currentChapterLevel]?.text)
+          setHidden(false)
+          const timeOut = setTimeout(() => {
+            setCurrentChapterLevel(currentChapterLevel + 1)
+            setHidden(true)
+
+          }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 330) + 2000)
+        }, 1500)
       }
-  }, [currentChapterLevel, storyLevel, text])
+      else
+        if (text?.[`${storyLevel}`]?.[currentChapterLevel]?.options) {
+          setCurrentText(null)
+          setCurrentOptions(text[`${storyLevel}`]?.[currentChapterLevel])
+        }
+    }
+  }, [currentChapterLevel, storyLevel, text, inGame])
 
   const advanceStory = (chapterLevel, storyLevel) => {
     setCurrentChapterLevel(chapterLevel)
@@ -52,18 +65,35 @@ function App() {
     }, (((((tempOptions?.['continuity-text'] ? tempOptions?.['continuity-text'] : ' ') + (tempOptions?.options?.[e]?.action)).split(' ')).length) * 330) + 2000)
 
   }
-
   return (
     <>
       <Dust />
+      <DiffusingPixels />
       <div className='App'>
         {
+          !inGame &&
+          intro &&
+          <div id='logo'>
+            <p>
+              Created by
+            </p>
+            <img src="https://fontmeme.com/permalink/240114/9dfb864c8712a01b5f582a9bc8beee30.png" alt="rockredugly logo" border="0" />
+          </div>
+        }
+        {
+          !intro && !inGame &&
+          <Menu />
+        }
+        {
+          inGame &&
           currentText &&
           <p key={currentChapterLevel + storyLevel + currentOptions?.length} className={`normal-text ${hidden ? 'hidden' : 'visible'}`}>
             {currentText}
           </p>
         }
-        {currentOptions &&
+        {
+          inGame &&
+          currentOptions &&
           <div id='options-container'>
             {currentOptions.options.map((x, i) => {
               return (
