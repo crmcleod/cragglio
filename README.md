@@ -62,7 +62,7 @@ Before you begin, ensure you have met the following requirements:
 - [npm](https://www.npmjs.com/) (Node Package Manager) installed
 
 - Clone this repository
-- Open a terminal and navigate to the route of this project
+- Open a terminal and navigate to the root of this project
 - Run `npm i` and handle any dependency issues if needed
 - Run `npm run start`
 - Enjoy!
