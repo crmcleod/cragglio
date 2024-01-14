@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 🔧 Game Engine 
+This is a super simple react app that takes a set JSON structure - imported from github to allow instant updates without a redeploy - and parsed into a looping choose-your-own-path style text adventure.
+<details>
+<summary>Example JSON Schema</summary>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```
+{
+     "1": [
+        {
+            "text": "Beginning"
+        },
+        {
+            "text": "continuation"
+        },
+        {
+             "continuity-text": "[OPTIONAL] Some common text to append to option actions",
+                "options": [
+                {
+                    "text": "Option one text to display",
+                    "action": "Action text to display after selected"
+                },
+                {
+                    "text": "Option two text to display",
+                    "action": "Action text to display after selected"
+                },
+                {
+                    "text": "Option three text to display",
+                    "action": "Action text to display after selected",
+                    "story-level": Story level indicates which json key to go to next,
+                    "chapter-level": Chapter level indicates which array element of a story level to start at
+                }
+            ]
+        },
+     ],
+     "2": [
+            {
+                "text": "The story continues"
+            },
+            {
+                 "options": [
+                {
+                    "text": "Loop back to the start",
+                    "action": "You loop back to story part 1, chapter 0",
+                    "story-level": 1,
+                    "chapter-level": 0
+                },
+                 ]
+            }
+        ]
+    }
+```
+</details>
 
-## Available Scripts
+# 🎰 Current game(s) 
+### Odyssey
+Embark on a surreal journey through shifting realities, where the protagonist navigates cosmic mysteries and confronts existential choices. The tale unfolds in a universe of uncertainty, blending the ethereal and the profound, culminating in a pivotal choice that shapes the very fabric of existence.
 
-In the project directory, you can run:
+# 🏃 Running locally
+Before you begin, ensure you have met the following requirements:
 
-### `npm start`
+- [Node.js](https://nodejs.org/) installed
+- [npm](https://www.npmjs.com/) (Node Package Manager) installed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Clone this repository
+- Open a terminal and navigate to the route of this project
+- Run `npm i` and handle any dependency issues if needed
+- Run `npm run start`
+- Enjoy!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# ✍️ Contributing 
+If you would like to contribute your own story, please get in touch with me!
