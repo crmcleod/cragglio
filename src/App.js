@@ -47,7 +47,7 @@ export const App = () => {
         }, 1500)
       }
       else
-      // if text not set and options exist then set options
+        // if text not set and options exist then set options
         if (text?.[`${storyLevel}`]?.[currentChapterLevel]?.options) {
           setCurrentText(null)
           setCurrentOptions(text[`${storyLevel}`]?.[currentChapterLevel])
@@ -65,16 +65,22 @@ export const App = () => {
     const tempOptions = currentOptions;
 
     setCurrentOptions(null)
-    // additional text prop available as "continuity text", this can be used to add common text to all options
-    // action is immediate action after selecting option
-    setCurrentText(tempOptions?.options?.[e]?.action + (tempOptions?.['continuity-text'] ? (' ' + tempOptions['continuity-text']) : ''))
-    setTimeout(() => {
-      // if options has chapter-level prop use the options, otherwise presume script and move forward
-      tempOptions?.options?.[e]?.hasOwnProperty('chapter-level') ?
-        advanceStory(tempOptions?.options?.[e]['chapter-level'], tempOptions?.options?.[e]['story-level']) :
-        setCurrentChapterLevel(currentChapterLevel + 1)
-    }, (((((tempOptions?.['continuity-text'] ? tempOptions?.['continuity-text'] : ' ') + (tempOptions?.options?.[e]?.action)).split(' ')).length) * 330) + 2000)
 
+    setTimeout(() => {
+
+      // additional text prop available as "continuity text", this can be used to add common text to all options
+      // action is immediate action after selecting option
+      setCurrentText(tempOptions?.options?.[e]?.action + (tempOptions?.['continuity-text'] ? (' ' + tempOptions['continuity-text']) : ''))
+      setHidden(false)
+      setTimeout(() => {
+        // if options has chapter-level prop use the options, otherwise presume script and move forward
+        tempOptions?.options?.[e]?.hasOwnProperty('chapter-level') ?
+          advanceStory(tempOptions?.options?.[e]['chapter-level'], tempOptions?.options?.[e]['story-level']) :
+          setCurrentChapterLevel(currentChapterLevel + 1)
+        setHidden(true)
+      }, (((((tempOptions?.['continuity-text'] ? tempOptions?.['continuity-text'] : ' ') + (tempOptions?.options?.[e]?.action)).split(' ')).length) * 330) + 2000)
+
+    }, 1000)
   }
   return (
     <MainContext.Provider value={{ currentText, currentOptions, storyLevel, currentChapterLevel, hidden, inGame, intro, handleOptionClick }}>
