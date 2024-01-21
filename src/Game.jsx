@@ -14,7 +14,7 @@ export const Game = () => {
   return (
     <>
       <Dust />
-      <DiffusingPixels />
+      {!inGame && <DiffusingPixels />}
       <div className='App h100 w100 fixed flex-column'>
         {
           !inGame && intro &&

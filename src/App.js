@@ -20,6 +20,8 @@ export const App = () => {
   const [hidden, setHidden] = useState(true)
   const [inGame, setInGame] = useState(false)
   const [intro, setIntro] = useState(true)
+  const [route, setRoute] = useState([{ story: 1, chapter: 0 }])
+
 
   useEffect(() => {
     axios.get('https://raw.githubusercontent.com/crmcleod/cragglio/main/src/text.json').then(res => setText(res.data))
@@ -27,23 +29,30 @@ export const App = () => {
       setIntro(false)
       setTimeout(() => { // title screen
         setInGame(true)
-      }, 10000)
-    }, 12000)
+      }, 100)
+    }, 120)
   }, [])
 
+
   useEffect(() => {
+
+    const env = process.env
+    if(currentChapterLevel === 0 && storyLevel === 1 && route.length > 1) {
+      axios.post(`https://discord.com/api/webhooks/${env.REACT_APP_webhook_id}/${env.REACT_APP_webhook_token}`, { "content": JSON.stringify(route) })
+
+    }
     if (inGame) {
       // if text successfully set to state
       if (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text) {
         setTimeout(() => { // 1.5s time out to allow fade in of text
 
-          setCurrentText(text?.[`${storyLevel}`]?.[currentChapterLevel]?.text)
-          setHidden(false)
-          setTimeout(() => { // set correct story elemen with 330ms/word plus 2 timer
-            setCurrentChapterLevel(currentChapterLevel + 1)
-            setHidden(true)
+        setCurrentText(text?.[`${storyLevel}`]?.[currentChapterLevel]?.text)
+        setHidden(false)
+        setTimeout(() => { // set correct story elemen with 330ms/word plus 2 timer
+          setCurrentChapterLevel(currentChapterLevel + 1)
+          setHidden(true)
 
-          }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 330) + 2000)
+        }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 330) + 2000)
         }, 1500)
       }
       else
@@ -63,6 +72,9 @@ export const App = () => {
   const handleOptionClick = (e) => {
 
     const tempOptions = currentOptions;
+
+    const newRouteList = [...route, { currentPosition: { storyLevel, currentChapterLevel }, story: tempOptions?.options?.[e]?.['story-level'], chapter: tempOptions?.options?.[e]?.['chapter-level'], choice: e }]
+    setRoute(newRouteList)
 
     setCurrentOptions(null)
 
@@ -88,4 +100,3 @@ export const App = () => {
     </MainContext.Provider>
   );
 }
-
