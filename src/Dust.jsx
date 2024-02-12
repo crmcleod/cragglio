@@ -10,6 +10,10 @@ const Dust = () => {
             const mote = document.createElement('div');
             mote.className = 'dust-mote';
             mote.style.left = `${Math.random() * 100}vw`;
+            mote.style.width = `${Math.random() * 5}px`
+            mote.style.height = `${Math.random() * 5}px`
+             mote.style.transformOrigin= `${Math.random() * 2000}% ${Math.random() * 2000}%`
+
             mote.style.animationDuration = `${Math.random() * 4 + 10}s`;
             container.appendChild(mote)
 
@@ -19,7 +23,7 @@ const Dust = () => {
                 ;
         }
 
-        const intId = setInterval(createDustMote, 300);
+        const intId = setInterval(createDustMote, (Math.random()*50)+50);
         return () => {
             clearInterval(intId);
         }
