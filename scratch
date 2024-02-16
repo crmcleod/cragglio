@@ -1,0 +1,28 @@
+const currentOption = tempOptions?.options?.[e];
+
+if (currentOption?.hasOwnProperty('chapter-level')) {
+  // Presence of option tag indicates that a path is closable
+  if (currentOption?.hasOwnProperty('option-tag')) {
+    // If there are multiple option tags, there are conditions for locked options
+    if (currentOption['option-tag']?.length > 1) {
+      // Start with optionSatisfied as true; any false means not satisfied
+      let optionSatisfied = currentOption['option-tag'].every(tag => closedRoutes[tag]);
+      
+      // If multi-option tag satisfied, use locked levels
+      if (optionSatisfied) {
+        advanceStory(currentOption['locked-chapter-level'], currentOption['locked-story-level']);
+      } else {
+        advanceStory(currentOption['chapter-level'], currentOption['story-level']);
+      }
+    } else if (closedRoutes?.[currentOption['option-tag']]) {
+      advanceStory(currentOption['locked-chapter-level'], currentOption['locked-story-level']);
+    } else {
+      setClosedRoutes({ [currentOption['option-tag']]: true });
+      advanceStory(currentOption['chapter-level'], currentOption['story-level']);
+    }
+  } else {
+    advanceStory(currentOption['chapter-level'], currentOption['story-level']);
+  }
+} else {
+  setCurrentChapterLevel(currentChapterLevel + 1);
+}
