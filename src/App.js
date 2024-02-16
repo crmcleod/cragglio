@@ -26,8 +26,10 @@ export const App = () => {
 
 
   useEffect(() => {
-    // axios.get('https://raw.githubusercontent.com/crmcleod/cragglio/main/src/text.json').then(res => setText(res.data))
-    setText(mineText)
+    const currentUrl = window.location.href.split('story=').pop()
+    axios.get(`https://raw.githubusercontent.com/crmcleod/cragglio/main/src/${
+      currentUrl === 'mine' ? 'mine' : 'text'
+    }.json`).then(res => setText(res.data))
     setTimeout(() => { // credit screen
       setIntro(false)
       setTimeout(() => { // title screen
@@ -59,8 +61,8 @@ export const App = () => {
             setCurrentChapterLevel(currentChapterLevel + 1)
             setHidden(true)
 
-          }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 3) + 20) // 330
-        }, 150) // 1500
+          }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 330) + 2000) // 330
+        }, 1500) // 1500
       }
       else
         // if text not set and options exist then set options
@@ -137,7 +139,7 @@ export const App = () => {
           setCurrentChapterLevel(currentChapterLevel + 1)
         }
         setHidden(true)
-      }, (((((tempOptions?.['continuity-text'] ? tempOptions?.['continuity-text'] : ' ') + (currentOption?.action)).split(' ')).length) * 3) + 2000) // 330
+      }, (((((tempOptions?.['continuity-text'] ? tempOptions?.['continuity-text'] : ' ') + (currentOption?.action)).split(' ')).length) * 330) + 2000) // 330
 
     }, 1000)
   }

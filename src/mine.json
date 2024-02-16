@@ -10,7 +10,7 @@
             "text": "You had found a way in that seemed to allow an exit too. Your camera had only recorded darkness, but it had managed to survive being danlged in and then removed. You had to see for yourself. Something told you that, if you respected the darkness, your eyes would eventually adjust. You didn't need to wait for the others and their dark splitting lights."
         },
         {
-            "text": "...entrance..."
+            "text": "Entering the mine, you proceed with caution, leaving the warmth of the world behind. The tunnel welcomes you with a gradual drop in temperature and a musty scent, hinting at years of abandonment. The only sounds are the echoes of your footsteps."
         },
         {
             "text": "As if against your will, your eyes seem to widen beyond comfort. It's so unlike any darkness you've ever experienced that your brain is trying everything to make sense of the darkness and try to allow light in. You reach out to balance yourself and find that the tunnel is narrow, hands find contact on both sides. You are able to easily and steadily move forward, taking care not to trip"
@@ -451,7 +451,7 @@
             "text": "\"Oh for fu...\" you exclaim to yourself. You are once again at the 3 tunnel junction, the birds tweet ahead of you, the dead sound of nothingness to your right and to your left, the tunnel you had first taken, now bereft of the whistling winds you had first heard. Behind you the tunnel is inaccessible as the ceiling has caved in along with the cart fall."
         },
         {
-            "option-reminder":"\"Oh for fu...\" you exclaim to yourself. You are once again at the 3 tunnel junction, the birds tweet ahead of you, the dead sound of nothingness to your right and to your left, the tunnel you had first taken, now bereft of the whistling winds you had first heard. Behind you the tunnel is inaccessible as the ceiling has caved in along with the cart fall.",
+            "option-reminder": "\"Oh for fu...\" you exclaim to yourself. You are once again at the 3 tunnel junction, the birds tweet ahead of you, the dead sound of nothingness to your right and to your left, the tunnel you had first taken, now bereft of the whistling winds you had first heard. Behind you the tunnel is inaccessible as the ceiling has caved in along with the cart fall.",
             "options": [
                 {
                     "text": "Head left",
@@ -489,7 +489,7 @@
                         2
                     ],
                     "locked-text": "Follow the tunnel on your right",
-                    "locked-action": "On you go",
+                    "locked-action": "You walk into the complete silence.",
                     "locked-story-level": 9,
                     "locked-chapter-level": 0
                 }
@@ -498,10 +498,136 @@
     ],
     "9": [
         {
-            "text": "You've walked on"
+            "text": "You walk straight into a much larger cave, you are unable to determine by eye how many bodies are here. It's obvious to you that they are from a number of different eras. The equipment they have and they clothes they wear seems to comes from anything up to three decades prior."
+        },
+        {
+            "text": "Not one voice asks you for anything, in fact as you were able to hear - or not hear - from the entrance to the tunnel, there is no sound here. Not in the sense that nothing is making a sound, but something is actively drawing the sound away like a black hole."
+        },
+        {
+            "text": "There is one thing they do all share in common, though. Every single of the bodies has their hands raised to their ears and they all share the same common expression of fear. Except one. One that draws the attention and the eyes of the rest crouches near the back of the cave. It's unclear from here what they appear to be crouched over, so you approach."
+        },
+        {
+            "text": "Things immediately make sense to you, you've found a moment frozen in time. The crouching miner holds the fuse of an explosive in one hand and an eternally burning flame of a lighter in the other. \"If there was no explosion though, then why are any of the subsequent visitors here scared?\" you ask yourself."
+        },
+        {
+            "text": "A sound bubbles out of the silence"
+        },
+        {
+            "text": "\"3\""
+        },
+        {
+            "text": "You are unclear where the voice came from, it could be any of the corpses here."
+        },
+        {
+            "text": "The flame of the miner's lighter flickers, and you realise what it was."
+        },
+        {
+            "text": "\"2\""
+        },
+        {
+            "text": "You turn back to the entrance and decide you probably don't have time to run back. You inadvertently mirror every other person in the room, fear spreads across your face and you cover your ears, eyes squeezed shut but unable to turn away from the explosive."
+        },
+        {
+            "text": "\"1\" - you bearly hear it through your covered ears."
+        },
+        {
+            "text": "You had almost expected an anticlimax. So far you haven't really been a part of this story, just a late observer, a ghost of sorts, but the sound rushes in like a tidal wave all at once, the explosion breaks the silence, and the cacophony of terrified screams with it. You eardrums vibrate in agony, despite your feeble attempts to block out the sound. You feel every single atom of your body shaken by the noise."
+        },
+        {
+            "text": "You fail to notice the lack of an explosion, though, crouching, adding your own scream to the mix, unable to move for minutes."
+        },
+        {
+            "text": "Your scream eventually falters, and you realise that the noise of the explosion is no longer in your immediate area, it has gone, echoing down the tunnels to eventually get lost in some unknown realm of the underworld. Nothing has changed though, you are still in one piece. Almost nothing has changed..."
+        },
+        {
+            "text": "You look back to the miner and his explosion, and are unable to comprehend what you see. No longer a man, arms blown back to bloody stumps around the shoulders, a face torn to pieces, his jaw hanging open, and barely anything remaining of his torso, just rags and flesh hanging to cracked ribs. Red hot flaming shrapnel still burns at various points on him. You look away, at one glance you took in more than you ever want to remember. For the first time you are no longer interested in the mystery here, you just want to find a way out."
+        },
+        {
+            "text": "A hole has been blown through the rock to a small natural cavern below. It seems unlikely to you that anything or anyone made it any further than this, maybe it could be the beginning of the end of this journey."
+        },
+        {
+            "text": "You make your way through to the cavern and find the drones, robots, cameras that were the missing part of the picture from the rest of your visit. It's entirely unclear how they have ended up here, or why though. They lie in an abandoned heap, all crushed, broken and rotten as if aged by decades or even centuries, only plastic remaining intact, if yellowed by the apparent rapid aging process. Three items stand out in particular, a particularly expensive look drone, an audio recorder and a mobile phone."
+        },
+        {
+            "options": [
+                {
+                    "text": "Inspect the drone",
+                    "action": "You turn the drone over in your hands, but whatever illusion of structure it had quickly falls away as the brittle plastic disintegrates and the internal circuitry falls to pieces through your fingers",
+                    "story-level": 9,
+                    "chapter-level": 17,
+                    "option-tag": [
+                        9
+                    ],
+                    "locked-text": "Inspect the disintegrated drone",
+                    "locked-action": "It's just a pile of broken pieces that once constituted a several-thousand pound drone.",
+                    "locked-story-level": 9,
+                    "locked-chapter-level": 17
+                },
+                {
+                    "text": "Inspect the audio recorder",
+                    "action": "It's just a dead audio recorder, though whatever rapid aging process that destroyed everything else seems to have been somewhat kinder to this one. You put it back on the heap of destroyed equipment.",
+                    "story-level": 9,
+                    "chapter-level": 17,
+                    "option-tag": [
+                        9,
+                        10
+                    ],
+                    "locked-text": "Inspect the audio recorder",
+                    "locked-action": "You manage to retrieve some wires from the drone, touching them to the battery now orphaned from the phone and after a couple of fumbled attempts, you manage to get contact with the battery connections in the audio recorder.",
+                    "locked-story-level": 9,
+                    "locked-chapter-level": 18
+                },
+                {
+                    "text": "Inspect the mobile phone",
+                    "action": "The phone briefly flashes to life, and for a split second you see a labrador playing with children on the lock screen before the phone simply falls apart, as though the glue and solder has been stripped from every component in the phone.",
+                    "story-level": 9,
+                    "chapter-level": 17,
+                    "option-tag": [
+                        10
+                    ],
+                    "locked-text": "Inspect the mobile phone",
+                    "locked-action": "You pick up the pieces, but that's all there is, loose pieces and components that you allow to fall through your fingers, clattering to the floor.",
+                    "locked-story-level": 9,
+                    "locked-chapter-level": 17
+                }
+            ]
+        },
+        {
+            "text": "The audio recorder smoothly comes to life, already set to play whatever had been recorded."
+        },
+        {
+            "text": "A woman's voice, \"If you're listening to this, then I'm sorry, there can't be any hope left for you.\" Your blood runs cold."
+        },
+        {
+            "text": "\"Death itself abides here. Like a body needs oxygen so that it doesn't suffocate, so does it need life force, but there is none.\""
+        },
+        {
+            "text": "\"Death exists here in a way that suffocates life itself. The further you go on the more your soul is gasping for life, but it won't find it. It can't. Death fills that space in your soul instead, and eventually it will asphyxiate you. You will be trapped forever, frozen in a moment of your own death. Sorry.\""
+        },
+        {
+            "text": "The recording stops and the recorder falls apart entirely. It had held on for seemingly one purpose and, that purpose served, it turned to dust."
+        },
+        {
+            "text": "\"This is some sort of fucking fire side horror story bullshit, I don't believe it,\" you tell yourself."
+        },
+        {
+            "text": "As you move around the cavern you are sure that you feel real air moving, and, yes, at just the right angle there is a pin prick of light. You rush to it. It isn't just a crack in a rock though, this is a mass of mineral stained and hardened tree roots. You pull at them but there is no give, so you thrust your shoulder in to them with your renewed enthusiasm for freedom."
+        },
+        {
+            "text": "The roots shatter, and you see you freedom."
+        },
+        {
+            "options": [
+                {
+                    "text": "Leave the mine",
+                    "action": "You brush the broken roots aside and step through",
+                    "story-level": 10,
+                    "chapter-level": 0
+                }
+            ]
         }
     ],
-    "END": [
+    "10": [
         {
             "text": "You exit into the dim light, you find it almost impossible to tell whether it's morning or evening, all sense of time completely lost to you in the tunnels."
         },
@@ -526,7 +652,8 @@
         {
             "text": "You decide to head into a building to look for people, at least if you find a phone you might be able to call someone."
         },
-        { "option-reminder": "You decide to head into a building to look for people, at least if you find a phone you might be able to call someone.",
+        {
+            "option-reminder": "You decide to head into a building to look for people, at least if you find a phone you might be able to call someone.",
             "options": [
                 {
                     "text": "Head into the bar",
