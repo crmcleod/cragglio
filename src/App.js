@@ -22,11 +22,11 @@ export const App = () => {
   const [inGame, setInGame] = useState(false)
   const [intro, setIntro] = useState(true)
   const [route, setRoute] = useState([{ story: 1, chapter: 0 }])
+  const [closedRoutes, setClosedRoutes] = useState({})
 
 
   useEffect(() => {
-    setText(mineText)
-    // axios.get('https://raw.githubusercontent.com/crmcleod/cragglio/main/src/text.json').then(res => setText(res.data))
+    axios.get('https://raw.githubusercontent.com/crmcleod/cragglio/main/src/text.json').then(res => setText(res.data))
     setTimeout(() => { // credit screen
       setIntro(false)
       setTimeout(() => { // title screen
@@ -58,8 +58,8 @@ export const App = () => {
             setCurrentChapterLevel(currentChapterLevel + 1)
             setHidden(true)
 
-          }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 3) + 20) // 330
-        }, 150) // 1500
+          }, (text?.[`${storyLevel}`]?.[currentChapterLevel]?.text?.split(' ').length * 330) + 2000) 
+        }, 1500)
       }
       else
         // if text not set and options exist then set options
@@ -70,9 +70,16 @@ export const App = () => {
     }
   }, [currentChapterLevel, storyLevel, text, inGame])
 
-  const advanceStory = (chapterLevel, storyLevel) => {
-    setCurrentChapterLevel(chapterLevel)
-    setStoryLevel(storyLevel)
+  const advanceStory = (chapterLevel, nextStoryLevel) => {
+    if (chapterLevel === currentChapterLevel && storyLevel === nextStoryLevel) {
+      setCurrentChapterLevel(null)
+      setStoryLevel(null)
+    }
+    // allow slight delay to return to same point in story
+    setTimeout(() => {
+      setCurrentChapterLevel(chapterLevel)
+      setStoryLevel(nextStoryLevel)
+    }, 50)
   }
 
   const handleOptionClick = (e) => {
@@ -84,24 +91,57 @@ export const App = () => {
 
     setCurrentOptions(null)
 
+    const currentOption = tempOptions?.options?.[e];
+    // all option tags have been satisfied to lock route
+    const optionSatisfied = currentOption?.['option-tag']?.every(tag => closedRoutes[tag]);
     setTimeout(() => {
 
       // additional text prop available as "continuity text", this can be used to add common text to all options
       // action is immediate action after selecting option
-      setCurrentText(tempOptions?.options?.[e]?.action + (tempOptions?.['continuity-text'] ? (' ' + tempOptions['continuity-text']) : ''))
+      setCurrentText(
+        (optionSatisfied ? currentOption?.['locked-action'] : currentOption?.action) 
+        + (tempOptions?.['continuity-text'] ? 
+        (' ' + tempOptions['continuity-text']) : ''))
       setHidden(false)
       setTimeout(() => {
+
         // if options has chapter-level prop use the options, otherwise presume script and move forward
-        tempOptions?.options?.[e]?.hasOwnProperty('chapter-level') ?
-          advanceStory(tempOptions?.options?.[e]['chapter-level'], tempOptions?.options?.[e]['story-level']) :
+        if (currentOption?.hasOwnProperty('chapter-level')) {
+          // presence of option tag indicates that a path is closable
+          if (currentOption?.hasOwnProperty('option-tag')) {
+            // if there are multiple option tags, there are conditions to locked options
+            if (currentOption['option-tag'].length > 1) {
+              // start wtih optionSatisfied as true; any false means not satisfied, in reverse, false can be changed to true on a single true
+
+              // if multi option tag satisfied, use locked levels
+              if (optionSatisfied) {
+                advanceStory(currentOption['locked-chapter-level'], tempOptions?.options?.[e]['locked-story-level'])
+              } else {
+                advanceStory(currentOption['chapter-level'], currentOption['story-level'])
+              }
+            } else
+              if (closedRoutes?.[currentOption['option-tag']]) {
+                advanceStory(currentOption['locked-chapter-level'], currentOption['locked-story-level'])
+              } else {
+                const newClosedRouteObject = { ...closedRoutes }
+                newClosedRouteObject[currentOption['option-tag']] = true
+                setClosedRoutes(newClosedRouteObject)
+                advanceStory(currentOption['chapter-level'], currentOption['story-level'])
+              }
+          } else {
+            advanceStory(currentOption['chapter-level'], currentOption['story-level'])
+          }
+        }
+        else {
           setCurrentChapterLevel(currentChapterLevel + 1)
+        }
         setHidden(true)
-      }, (((((tempOptions?.['continuity-text'] ? tempOptions?.['continuity-text'] : ' ') + (tempOptions?.options?.[e]?.action)).split(' ')).length) * 3) + 2000) // 330
+      }, (((((tempOptions?.['continuity-text'] ? tempOptions?.['continuity-text'] : ' ') + (currentOption?.action)).split(' ')).length) * 330) + 2000)
 
     }, 1000)
   }
   return (
-    <MainContext.Provider value={{ currentText, currentOptions, storyLevel, currentChapterLevel, hidden, inGame, intro, handleOptionClick }}>
+    <MainContext.Provider value={{ currentText, currentOptions, storyLevel, currentChapterLevel, hidden, inGame, intro, handleOptionClick, closedRoutes }}>
       <Game />
     </MainContext.Provider>
   );

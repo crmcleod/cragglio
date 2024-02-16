@@ -8,7 +8,7 @@ import { MainContext } from "./App"
 export const Game = () => {
 
   const {
-    currentText, currentOptions, storyLevel, currentChapterLevel, hidden, inGame, intro, handleOptionClick
+    currentText, currentOptions, storyLevel, currentChapterLevel, hidden, inGame, intro, handleOptionClick, closedRoutes
   } = useContext(MainContext)
 
   return (
@@ -32,7 +32,7 @@ export const Game = () => {
         }
         {
           inGame && currentOptions &&
-          <OptionsContainer handleOptionClick={handleOptionClick} currentOptions={currentOptions} />
+          <OptionsContainer handleOptionClick={handleOptionClick} currentOptions={currentOptions} closedRoutes={closedRoutes}/>
         }
       </div>
     </>
