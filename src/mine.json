@@ -1,0 +1,254 @@
+{
+    "1": [
+        {
+            "text": "You left them behind. They wanted to see the mine too, but they wanted to fracture the perfect darkness with lamps. Nothing but gases and forgotten memories had disturbed the tunnels since they had been shut down. You weren't about to let these idiots in. You're different though, you respect the darkness and you know that it will respect you back."
+        },
+        {
+            "text": "Nothing that had been sent in to explore before had made it out again. Drones, robots, rescue animals and, before they learned their lesson, humans - in spite of all of their protective wear - had simply been swallowed up."
+        },
+        {
+            "text": "You had found a way in that seemed to allow an exit too. Your camera had only recorded darkness, but it had managed to survive being danlged in and then removed. You had to see for yourself. Something told you that, if you respected the darkness, your eyes would eventually adjust. You didn't need to wait for the others and their dark splitting lights."
+        },
+        {
+            "text": "...entrance..."
+        },
+        {
+            "text": "As if against your will, your eyes seem to widen beyond comfort. It's so unlike any darkness you've ever experienced that your brain is trying everything to make sense of the darkness and try to allow light in. You reach out to balance yourself and find that the tunnel is narrow, hands find contact on both sides. You are able to easily and steadily move forward, taking care not to trip"
+        },
+        {
+            "text": "The only sound for some time is the shuffling of your feet"
+        },
+        {
+            "text": "\"Help me get out of here!\" "
+        },
+        {
+            "text": "\"Please!\" "
+        },
+        {
+            "text": "You are almost certain that the voice bypassed your ears. There is no echo on the walls, no bias to either your left or right. The sound, the hallucination - you assumed - landed in your mind."
+        },
+        {
+            "text": "You carry on, knowing that there is more to fear from the living than there is from the dead, and you are certain that nothing could be alive in here."
+        },
+        {
+            "text": "Your left foot kicks something, although no way of knowing what in the darkness. A scraping sound begins, slowly at first, quickly speeding up. You realise that something is falling, sliding down the wall and you brace yourself for a violent crescendo. In fact a soft dull rattle is all you hear."
+        },
+        {
+            "options": [
+                {
+                    "text": "Investigate the object",
+                    "action": "You fumble in the dark, but are unable to make sense of what your hands touch upon. It seems like a wooden handle with age loosened bindings. You leave it in place."
+                },
+                {
+                    "text": "Leave the object and carry on calmly",
+                    "action": "You resume your slow and careful guided journey, hands rasping gently against the hewn rock surface on either side."
+                },
+                {
+                    "text": "Presume the worst, and rush on!",
+                    "action": "Your imagination runs wild, your previous calm and unshakable mood is now broken by the idea of dead bodies or worse. You immediately trip, a quick and succinct reminder to keep calm. You continue on, more carefully."
+                }
+            ]
+        },
+        {
+            "text": "Inexplicably your eyes do begin to accomodate to the absolute darkness. A matte silver light paints the edges of everything with a glow that seems to simply ignore the existence of shadows. You wonder if the darkness, fully saturated from consuming shadows can no longer hold back the internal glow."
+        },
+        {
+            "text": "Your phone momentarily vibrates in your pocket, and you grin to yourself; you've left those other assholes behind and now they're too afraid to come looking for you. You remove the phone from your pocket, but on inspection, the phone is entirely drained of life. You find yourself strangely compelled to drop the phone, no longer feeling any need to carry it on you."
+        },
+        {
+            "text": "You turn into the carved out area. Before you are able to take anything else in, though, you are confronted by 6 bodies. They are nearly perfectly preserved, though the skin is pulled just a little too tight, drawn back over gritted teeth. The eyes don't hold the glazed vacancy of death, they are angry, perhaps at your intrusion."
+        },
+        {
+            "text": "Voices come from the corpses, though there is no movement. Lips remain perfectly still. Eyes remain in their previous state. There isn't so much as a flicker, just a cruel and terrifying ventriloquism."
+        },
+        {
+            "text": "\"You've come for us!\""
+        },
+        {
+            "text": "\"We're lost, we've been lost for ever such a long time,\" a voice crackles, a gentle sob withheld."
+        },
+        {
+            "options": [
+                {
+                    "text": "Search the bodies for clues to the mystery of the mine",
+                    "action": "You find nothing but useless trinkets."
+                },
+                {
+                    "text": "Attempt to seal the doorway",
+                    "action": "You try and fail to pull down the supporting strucutre around the entrance. You would swear the anger in the faces has been tinged with mockery, now."
+                },
+                {
+                    "text": "Reassure the voices",
+                    "action": "\"I'm trying to find out more about this mine, hopefully I can bring you some peace,\" you state, feeling both scared and foolish. The faces stare back unmoving and say no more."
+                }
+            ]
+        },
+        {
+            "text": "The panel of judgmental eyes begins to grate on your nerves, so you continue on in your exploration."
+        },
+        {
+            "text": "The walls begin to open out, your hands unable to reach both sides anymore. You are just able to see the tunnel diverging. To the left you hear a sound like whistling wind; straight ahead you hear what might be the gentle chirping of small birds; and to the right sound seems to be drawn away entirely, absorbed into the dark."
+        },
+        {
+            "options": [
+                {
+                    "text": "Head left",
+                    "action": "A claustrophic feeling has begun to set upon you, the prospect of the rushing wind seems like a rejuvenating prospect.",
+                    "story-level": 2,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Go straight ahead",
+                    "action": "You've heard about canaries being used for mining before. Surely the chirping of any birds must indicate a safe passage.",
+                    "story-level": 3,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Follow the tunnel on your right",
+                    "action": "You came here to try and find out more about the strangeness of the mine. It only makes sense to pick the most unusual path. Besides, the absolute silence might stop any more voices.",
+                    "story-level": 4,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "2": [
+        {
+            "text": "As with everything in this mine, it isn't quite what you had expected. Rather than fresh air blowing the stagnancy out of your lungs and soul, it appears to be an illusion. The sounds buffet around you as though propelled on the air currents you hear, but there is no physical sensation of moving air whatsoever."
+        },
+        {
+            "text": "You press on, at this point, any path is as good as the others."
+        },
+        {
+            "text": "The whistling and roaring wind noises intensify and become unbearable. You feel a powerful auditory sensory overload."
+        },
+        {
+            "options": [
+                {
+                    "text": "Cover your ears and wait it out",
+                    "action": "You move your hands to your ears. The harder you press your hands in to your head, the louder the roar becomes as though perpuating from inside your auditory canals and building up in the pressure instead of dissipating.",
+                    "story-level": 5,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "Eye for an eye, scream into the darkness",
+                    "action": "You draw as much air as possible into your lungs, until they burn with the pressure and effort of holding it in. You slowly allow a growl to quietly push forth, gradually escalating into a more powerful and ferocious scream. You don't feel as though you are expelling any air in comparison to the noise you are creating.",
+                    "story-level": 6,
+                    "chapter-level": 0
+                },
+                {
+                    "text": "",
+                    "action": "",
+                    "story-level": 7,
+                    "chapter-level": 0
+                }
+            ]
+        }
+    ],
+    "3": [
+        {
+            "text": "As you once again find the walls narrowing, your hands run along the rough rock, fingers bumping over wooden supports at regular intervals. The sound of the birds brings a sense of peace and you find your eyes drifting shut as you enjoy a mindful state, the sensation of the sounds gently but tangibly vibrating your eardrums; the rough textures running over your finger tips, slightly overstimulating the nerves and leaving a somewhat numb, yet excited sensation."
+        },
+        {
+            "text": "You shift your attention to your feet. You've found a rhythm that requires no cognitive effort, the movements are almost self propelling. You focus on the feeling of the surface below your soles, rough like sandstone, but each shuffling step pushing loose debris forward under your foot before being released, left behind like your travel companions. Each step is a reminder of your onward journey without them, an abandonment anew."
+        },
+        {
+            "text": "\"Maybe I shouldn't have come down here alone,\" you quietly say out loud to yourself."
+        },
+        {
+            "text": "\"Have you seen my birds?\" a voice asks. You try to ignore it, sure as before that this is just a hallucination or a ghost of a voice, stuck in place."
+        },
+        {
+            "text": "\"Have YOU seen MY birds?!\" a now irritated and angry voice all but shouts. You realise that your eyes are still closed. Slowly you open them, worried what may lie before you. At first you don't see anything, that's not to say you are unable to see, rather there is nothing to note. Your eyes drift to a small recess in the wall and within it appears to be a small carved canary. You reject the thought that it might have been a real but petrified bird. It's nothing of particular note, although the eyes are perfectly glassy and black, as though formed out of the deepest, darkest and perfectly still ocean water."
+        },
+        {
+            "text": "You are an unsure if it was the bird that spoke before, whatever it was though has once again fallen silent. You once again become aware of the chirping birds, they are more active now though, a hint of agression tinges the sounds. Fluttering disturbances in the darkness surround you, occasional shadows come in and out of existence as though birds fly around you unperturbed by your existence. For all you try to focus on anything specific though, you are unable to."
+        }
+    ],
+    "4": [
+        {
+            "text": ""
+        }
+    ],
+    "5": [
+        {"text": "christ it's windy in here"}
+    ],
+    "6": [
+        {"text": "The reverberations and echoes around the tunnels and caves turn the scream into a single gutteral noise. An inhuman sound that seems to cease to oscillate, frozen in time."
+    },
+    {
+        "text": "You realise that the scream is the only thing you can hear, so you defeated the deafening wind. In an instant you stop but the scream continues, replaying the same moment for eternity"
+    },
+    {
+        "text": "When you try to make any sound now, nothing appears to come out, although it's impossible to tell over the volume of the continuous noise."
+    },
+    {"options": [
+        {
+            "text": "Turn around, head back to the junction",
+            "action": "The volume only increases as you try to turn back, you realise that you have to press on."
+        },
+        {
+            "text": "Continue on the path",
+            "action": "Push on through the noise"
+        },{
+            "text": "Attempt to find somewhere where the noise is quieter",
+            "action": "You turn your head side to side, looking for nodes of quiet"
+        }
+    ]}
+    ],
+    "7": [],
+
+    "END": [
+        {
+            "text": "You exit into the dim light, you find it almost impossible to tell whether it's morning or evening, all sense of time completely lost to you in the tunnels."
+        },
+        {
+            "text": "You're glad to finally find your freedom, the mine had started to penetrate your soul and you began to feel like you were a stranger in your own body. The usually unheeded functions of your body were completely noticeable, the blood coursing through your veins, pressurising and depressurising between beats of your heart. Your lungs filled and emptied as if under directive; breathe in, breathe out, breathe in, breathe out."
+        },
+        {
+            "text": "The peace and quiet is beautiful out here, punctuated by the dynamic sound as the wind, weather and rustling of plants is absorbed and reflected by all of the unique surfaces."
+        },
+        {
+            "text": "You find the van parked in the same place, although no one is around. You presume that they managed to follow you in. You know with almost certainty that you'll never see them again, you are numb to it and you decide to just make your own way. It seems cruel to take the van, besides the keys probably won't be there."
+        },
+        {
+            "text": "You walk to the nearest town, it's notably quiet, but it is a strange time of day whether it is morning or evening. The walk isn't far, only about 45 minutes, besides, you relish the fresh air and open space."
+        },
+        {
+            "text": "As you arrive into the main street, you are heartened to see that everything appears as normal. The street lights brighten the street, shop lights glow through windows, neon signs crackle in the dim light and music gently thumps from cars and businesses."
+        },
+        {
+            "text": "There's something unsettling that you can't quite put your finger on at first. It feels lifeless, for all the light and sounds, there doesn't feel like any movement. No moving cars, no people on the streets, not so much as a fly buzzing around a bin."
+        },
+        {
+            "text": "You decide to head into a building to look for people, at least if you find a phone you might be able to call someone."
+        },
+        {
+            "options": [
+                {
+                    "text": "Head into the bar",
+                    "action": "The bar looks as though everyone just left, not in a rush though. There's no sign of disarray or disturbance, but drinks lay on the tables and bar with only partly melted ice cubes, and beers still with foamy heads. Jackets and outerwear hang from the provided hangers, or are stuffed onto the ends of bench seating. You grab a mobile phone from a table, fully charged with no pin code and full signal."
+                },
+                {
+                    "text": "Head into the convenience shop",
+                    "action": "No one to be seen. The slushy machine rotates on, condensation beaded on the clear plastic vessels, one blue raspberry and one inexplicably green strawberry. You pick up a disposable phone and leave cash for it on the counter just in case. They come precharged and preloaded with credit - at least they're supposed to be."
+                },
+                {
+                    "text": "Head into the police station",
+                    "action": "Polystyrene coffee cups sit on various surfaces, some still just lightly steaming with residual heat. Files of paperwork sit in front of glowing monitors, screensavers gently roaming the screen for a never to be found resting place. Keys sit, ready for the taking if you were so inclined. You doubt there is a point in searching the cells though. This place is deserted. You lift what appears to be an emergency phone from the front desk and make your way outside."
+                }
+            ]
+        },
+        {
+            "text": "You try all of the phone numbers that you remember, which is actually embarrassingly few. Your mother who lives 200 miles away, no answer; your brother who lives at the other end of the country with his wife and children, no answer; 999, nothing, no operator, just an endless ringing."
+        },
+        {
+            "text": "Life has gone, evaporated as though you were the only person to have missed rapture. It's only you now, you realise in a panic inducing moment. The world is yours, and that world is hell."
+        },
+        {
+            "text": "The End",
+            "end": true
+        }
+        
+    ]
+}
