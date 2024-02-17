@@ -2,7 +2,6 @@ import './Styles/App.css';
 import { useState, useEffect, createContext } from 'react';
 import axios from 'axios'
 import { Game } from './Game';
-import mineText from './mine.json'
 
 export const MainContext = createContext();
 
