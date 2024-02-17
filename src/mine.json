@@ -1,22 +1,22 @@
 {
     "1": [
         {
-            "text": "You left them behind. They wanted to see the mine too, but they wanted to fracture the perfect darkness with lamps. Nothing but gases and forgotten memories had disturbed the tunnels since they had been shut down. You weren't about to let these idiots in. You're different though, you respect the darkness and you know that it will respect you back."
+            "text": "You left them behind. They wanted to see the mine, too. But they wanted to fracture the perfect darkness with lamps. Nothing but gases and forgotten memories had disturbed the tunnels since they had been shut down. You weren't about to let these idiots in. You're different, though. You respect the darkness, and you know it will respect you back."
         },
         {
-            "text": "Nothing that had been sent in to explore before had made it out again. Drones, robots, rescue animals and, before they learned their lesson, humans - in spite of all of their protective wear - had simply been swallowed up."
+            "text": "Nothing that had been sent in to explore before had ever made it out again. Drones, robots, rescue animals and, before they learned their lesson, humans - in spite of all of their protective wear - had simply been swallowed up."
         },
         {
-            "text": "You had found a way in that seemed to allow an exit too. Your camera had only recorded darkness, but it had managed to survive being danlged in and then removed. You had to see for yourself. Something told you that, if you respected the darkness, your eyes would eventually adjust. You didn't need to wait for the others and their dark splitting lights."
+            "text": "You found a way in that seemed to allow an exit, too. Your camera only recorded darkness, but it had managed to survive being dangled in, briefly. You had to see this for yourself. Something told you that if you respected the darkness, your eyes would eventually adjust. You didn't need to wait for the others and their dark-splitting lights."
         },
         {
-            "text": "Entering the mine, you proceed with caution, leaving the warmth of the world behind. The tunnel welcomes you with a gradual drop in temperature and a musty scent, hinting at years of abandonment. The only sounds are the echoes of your footsteps."
+            "text": "Entering the mine, you proceed with caution, leaving the warmth of the world behind. In the tunnel, you notice the temperature dropping gradually, and a musty scent, suggesting years of abandonment. The only sounds are the echoes of your footsteps."
         },
         {
-            "text": "As if against your will, your eyes seem to widen beyond comfort. It's so unlike any darkness you've ever experienced that your brain is trying everything to make sense of the darkness and try to allow light in. You reach out to balance yourself and find that the tunnel is narrow, hands find contact on both sides. You are able to easily and steadily move forward, taking care not to trip"
+            "text": "The darkness is all-consuming - unlike anything you’ve ever experienced before. Your eyes widen beyond comfort, trying, and failing, to let more light in. You reach out to balance yourself and find that the tunnel is narrow, hands find contact on both sides. You are able to easily and steadily move forward, taking care not to trip."
         },
         {
-            "text": "The only sound for some time is the shuffling of your feet"
+            "text": "The only sound for some time is the shuffling of your feet."
         },
         {
             "text": "\"Help me get out of here!\" "
@@ -25,51 +25,51 @@
             "text": "\"Please!\" "
         },
         {
-            "text": "You are almost certain that the voice bypassed your ears. There is no echo on the walls, no bias to either your left or right. The sound, the hallucination - you assumed - landed in your mind."
+            "text": "You are almost certain that the voice you heard bypassed your ears entirely. There is no echo on the walls, no bias to either your left or right. It is as though the sound - the hallucination, you assume - landed in your mind."
         },
         {
-            "text": "You carry on, knowing that there is more to fear from the living than there is from the dead, and you are certain that nothing could be alive in here."
+            "text": "You carry on, knowing that there is more to fear from the living than there is from the dead… and you are certain nothing could be alive in here."
         },
         {
-            "text": "Your left foot kicks something, although no way of knowing what in the darkness. A scraping sound begins, slowly at first, quickly speeding up. You realise that something is falling, sliding down the wall and you brace yourself for a violent crescendo. In fact a soft dull rattle is all you hear."
+            "text": "Your left foot kicks something, although there is no way of knowing what in the darkness. A scraping sound begins, slowly at first, then quickly speeding up. You realise something is falling - sliding down the wall - and you brace yourself for a violent crescendo. In fact, a soft, dull rattle is all you hear."
         },
         {
-            "option-reminder": "Your left foot kicks something, although no way of knowing what in the darkness. A scraping sound begins, slowly at first, quickly speeding up. You realise that something is falling, sliding down the wall and you brace yourself for a violent crescendo. In fact a soft dull rattle is all you hear.",
+            "option-reminder": "Your left foot kicks something, although there is no way of knowing what in the darkness. A scraping sound begins, slowly at first, then quickly speeding up. You realise something is falling - sliding down the wall - and you brace yourself for a violent crescendo. In fact, a soft, dull rattle is all you hear.",
             "options": [
                 {
                     "text": "Investigate the object",
-                    "action": "You fumble in the dark, but are unable to make sense of what your hands touch upon. It seems like a wooden handle with age loosened bindings. You leave it in place."
+                    "action": "You fumble in the dark, but are unable to make sense of what your hands can feel. It seems like a wooden handle with age-loosened bindings. You leave it be."
                 },
                 {
                     "text": "Leave the object and carry on calmly",
-                    "action": "You resume your slow and careful guided journey, hands rasping gently against the hewn rock surface on either side."
+                    "action": "You resume your slow and careful guided journey, hands scraping gently against the rough rock surface on either side."
                 },
                 {
-                    "text": "Presume the worst, and rush on!",
-                    "action": "Your imagination runs wild, your previous calm and unshakable mood is now broken by the idea of dead bodies or worse. You immediately trip, a quick and succinct reminder to keep calm. You continue on, more carefully."
+                    "text": "Presume the worst and rush on",
+                    "action": "Your imagination runs wild. Your previous calm and unshakable mood is now broken by the idea of dead bodies - or worse. You immediately trip; a quick and succinct reminder to keep calm. You continue on, more carefully."
                 }
             ]
         },
         {
-            "text": "Inexplicably your eyes do begin to accomodate to the absolute darkness. A matte silver light paints the edges of everything with a glow that seems to simply ignore the existence of shadows. You wonder if the darkness, fully saturated from consuming shadows can no longer hold back the internal glow."
+            "text": "Somehow, your eyes do begin to accommodate to the absolute darkness. A matte silver light paints the edges of everything, with a glow that seems to simply ignore the existence of shadows. You wonder if the darkness, fully saturated from consuming shadows, can no longer hold back its internal glow."
         },
         {
-            "text": "Your phone momentarily vibrates in your pocket, and you grin to yourself; you've left those other assholes behind and now they're too afraid to come looking for you. You remove the phone from your pocket, but on inspection, the phone is entirely drained of life. You find yourself strangely compelled to drop the phone, no longer feeling any need to carry it on you."
+            "text": "Your phone momentarily vibrates in your pocket, and you grin to yourself; you've left those other assholes behind, and now they're too afraid to come looking for you. You take a look but, on inspection, the phone is entirely drained of life. You find yourself strangely compelled to drop the phone, no longer feeling any need to carry it on you."
         },
         {
-            "text": "You turn into the carved out area. Before you are able to take anything else in, though, you are confronted by 6 bodies. They are nearly perfectly preserved, though the skin is pulled just a little too tight, drawn back over gritted teeth. The eyes don't hold the glazed vacancy of death, they are angry, perhaps at your intrusion."
+            "text": "You turn into a cave. Before you are able to take anything else in, you are confronted by the sight of six bodies. They are nearly perfectly preserved, though the skin is pulled just a little too tight, drawn back over gritted teeth. The eyes don't hold the glazed vacancy of death; they are angry - perhaps at your intrusion."
         },
         {
-            "text": "Voices come from the corpses, though there is no movement. Lips remain perfectly still. Eyes remain in their previous state. There isn't so much as a flicker, just a cruel and terrifying ventriloquism."
+            "text": "Voices come from the corpses, though there is no movement. Lips and eyes stay perfectly still.  Not so much as a flicker, just cruel and terrifying ventriloquism."
         },
         {
             "text": "\"You've come for us!\""
         },
         {
-            "text": "\"We're lost, we've been lost for ever such a long time,\" a voice crackles, a gentle sob withheld."
+            "text": "\"We're lost! We've been lost for ever such a long time,\" a voice crackles; a gentle sob withheld."
         },
         {
-            "option-reminder": "\"We're lost, we've been lost for ever such a long time,\" a voice crackles, a gentle sob withheld.",
+            "option-reminder": "\"We're lost! We've been lost for ever such a long time,\" a voice crackles; a gentle sob withheld.",
             "options": [
                 {
                     "text": "Search the bodies for clues to the mystery of the mine",
@@ -77,52 +77,52 @@
                 },
                 {
                     "text": "Attempt to seal the doorway",
-                    "action": "You try and fail to pull down the supporting strucutre around the entrance. You would swear the anger in the faces has been tinged with mockery, now."
+                    "action": "You try and fail to pull down the supporting structure around the cave’s entrance. You could almost swear the anger in the faces is suddenly tinged with mockery."
                 },
                 {
                     "text": "Reassure the voices",
-                    "action": "\"I'm trying to find out more about this mine, hopefully I can bring you some peace,\" you state, feeling both scared and foolish. The faces stare back unmoving and say no more."
+                    "action": "\"I'm trying to find out more about this mine. Hopefully I can bring you some peace,\" you say, feeling scared and foolish. The faces stare back unmoving and speak no more."
                 }
             ]
         },
         {
-            "text": "The panel of judgmental eyes begins to grate on your nerves, so you continue on in your exploration."
+            "text": "The panel of judgmental eyes begins to grate on your nerves, so you continue on."
         },
         {
-            "text": "The walls begin to open out, your hands unable to reach both sides anymore. You are just able to see the tunnel diverging. To the left you hear a sound like whistling wind; straight ahead you hear what might be the gentle chirping of small birds; and to the right sound seems to be drawn away entirely, absorbed into the dark."
+            "text": "The space between the walls begins to open out, your hands unable to reach both sides anymore. You are just able to make out the tunnel diverging. To your left, you can hear a sound like whistling wind. Straight ahead, you hear what might be the gentle chirping of small birds. And, to the right, sound seems to be drawn away entirely, absorbed into the dark."
         },
         {
-            "option-reminder": "The walls begin to open out, your hands unable to reach both sides anymore. You are just able to see the tunnel diverging. To the left you hear a sound like whistling wind; straight ahead you hear what might be the gentle chirping of small birds; and to the right sound seems to be drawn away entirely, absorbed into the dark.",
+            "option-reminder":"The space between the walls begins to open out, your hands unable to reach both sides anymore. You are just able to make out the tunnel diverging. To your left, you can hear a sound like whistling wind. Straight ahead, you hear what might be the gentle chirping of small birds. And, to the right, sound seems to be drawn away entirely, absorbed into the dark.",
             "options": [
                 {
                     "text": "Head left",
-                    "action": "A claustrophic feeling has begun to set upon you, the prospect of the rushing wind seems like a rejuvenating prospect.",
+                    "action": "A claustrophobic feeling has begun to gnaw at you. The prospect of rushing wind feels rejuvenating.",
                     "story-level": 2,
                     "chapter-level": 0,
                     "option-tag": [
                         1
                     ],
                     "locked-text": "Head left",
-                    "locked-action": "You are certain that there is nothing else to explore on this route",
+                    "locked-action": "You are certain there is nothing else to explore on this route.",
                     "locked-story-level": 1,
                     "locked-chapter-level": 21
                 },
                 {
                     "text": "Go straight ahead",
-                    "action": "You've heard about canaries being used for mining before. Surely the chirping of any birds must indicate a safe passage.",
+                    "action": "You've heard about canaries being used for mining before. Surely the chirping of any birds must indicate safe passage?",
                     "story-level": 3,
                     "chapter-level": 0,
                     "option-tag": [
                         2
                     ],
                     "locked-text": "Go straight ahead",
-                    "locked-action": "You attempt to go ahead and the thicket of fluttering wings pushes you back, there is no way to pass here.",
+                    "locked-action": "You attempt to go ahead, and a thicket of fluttering wings pushes you back. There is no way to pass here.",
                     "locked-story-level": 1,
                     "locked-chapter-level": 21
                 },
                 {
                     "text": "Follow the tunnel on your right",
-                    "action": "You came here to try and find out more about the strangeness of the mine. It only makes sense to pick the most unusual path. Besides, the absolute silence might stop any more voices. You are barely in the tunnel for a few moments before you find yourself inexplicably at the junction once more.",
+                    "action": "You came here to find out more about the strangeness of the mine. It only makes sense to pick the most unusual path. Besides, the absolute silence might stop any more voices. You are barely in the tunnel for a few moments before you find yourself inexplicably back at the same junction once more.",
                     "story-level": 1,
                     "chapter-level": 21,
                     "option-tag": [
@@ -130,7 +130,7 @@
                         2
                     ],
                     "locked-text": "Follow the tunnel on your right",
-                    "locked-action": "On you go",
+                    "locked-action": "On you go.",
                     "locked-story-level": 9,
                     "locked-chapter-level": 0
                 }
@@ -139,10 +139,10 @@
     ],
     "2": [
         {
-            "text": "As with everything in this mine, it isn't quite what you had expected. Rather than fresh air blowing the stagnancy out of your lungs and soul, it appears to be an illusion. The sounds buffet around you as though propelled on the air currents you hear, but there is no physical sensation of moving air whatsoever."
+            "text": "As with everything in this mine so far, things aren’t quite what you expected. The promise of fresh air appears to have been an illusion. The sounds buffet around you, as though propelled on the currents you hear, but there is no physical sensation of moving air whatsoever."
         },
         {
-            "text": "You press on, at this point, any path is as good as the others."
+            "text": "You press on. At this point, any path is as good as the others."
         },
         {
             "text": "The whistling and roaring wind noises intensify and become unbearable. You feel a powerful auditory sensory overload."
@@ -152,19 +152,19 @@
             "options": [
                 {
                     "text": "Cover your ears and wait it out",
-                    "action": "You move your hands to your ears. The harder you press your hands in to your head, the louder the roar becomes as though perpuating from inside your auditory canals and building up in the pressure instead of dissipating.",
+                    "action": "You move your hands to your ears. The harder you press, the louder the roar becomes, as though coming from inside your auditory canals and becoming stuck, instead of dissipating.",
                     "story-level": 5,
                     "chapter-level": 0
                 },
                 {
-                    "text": "Eye for an eye, scream into the darkness",
-                    "action": "You draw as much air as possible into your lungs, until they burn with the pressure and effort of holding it in. You slowly allow a growl to quietly push forth, gradually escalating into a more powerful and ferocious scream. You don't feel as though you are expelling any air in comparison to the noise you are creating.",
+                    "text": "Eye for an eye: scream into the darkness",
+                    "action": "You draw as much air as possible into your lungs, until they burn with the pressure and effort of holding it in. Your low growl gradually escalates into a powerful, ferocious scream.",
                     "story-level": 6,
                     "chapter-level": 0
                 },
                 {
                     "text": "Grit your teeth and move on",
-                    "action": "You're sure this won't be the worst to come on this journey, and this spurs you on to get this leg of the journey out of the way.",
+                    "action": "You're sure this won't be the worst to come on this expedition, and the noise spurs you on to get the current leg of the journey out of the way.",
                     "story-level": 5,
                     "chapter-level": 1
                 }
@@ -173,108 +173,108 @@
     ],
     "3": [
         {
-            "text": "As you once again find the walls narrowing, your hands run along the rough rock, fingers bumping over wooden supports at regular intervals. The sound of the birds brings a sense of peace and you find your eyes drifting shut as you enjoy a mindful state, the sensation of the sounds gently but tangibly vibrating your eardrums; the rough textures running over your finger tips, slightly overstimulating the nerves and leaving a somewhat numb, yet excited sensation."
+            "text": "As you once again find the walls narrowing, your palms run along the jagged rock, fingers bumping over wooden supports at regular intervals. The sound of the birds brings a sense of peace, and you find your eyes drifting shut as you enjoy a mindful state. The sensation of the sounds gently but tangibly vibrates your eardrums; the rough textures you feel slightly overstimulate the nerves, leaving a somewhat numb yet excited sensation."
         },
         {
-            "text": "You shift your attention to your feet. You've found a rhythm that requires no cognitive effort, the movements are almost self propelling. You focus on the feeling of the surface below your soles, rough like sandstone, but each shuffling step pushing loose debris forward under your foot before being released, left behind like your travel companions. Each step is a reminder of your onward journey without them, an abandonment anew."
+            "text": "You shift your attention to your feet. You've found a rhythm that requires no cognitive effort - the movements are almost self-propelling. You focus on the feeling of the surface below your soles, coarse like sandstone, but each shuffling step pushing loose debris forward under your foot before being released, left behind like your travel companions. Every step is a reminder of your onward journey without them; an abandonment anew."
         },
         {
             "text": "\"Maybe I shouldn't have come down here alone,\" you quietly say out loud to yourself."
         },
         {
-            "text": "\"Have you seen my birds?\" a voice asks. You try to ignore it, sure as before that this is just a hallucination or a ghost of a voice, stuck in place."
+            "text": "\"Have you seen my birds?\" A voice asks. You try to ignore it, sure that, as before, this is just a hallucination or a ghost of a voice, stuck in place."
         },
         {
-            "text": "\"Have YOU seen MY birds?!\" a now irritated and angry voice all but shouts. You realise that your eyes are still closed. Slowly you open them, worried what may lie before you. At first you don't see anything, that's not to say you are unable to see, rather there is nothing to note. Your eyes drift to a small recess in the wall and within it appears to be a small carved canary. You reject the thought that it might have been a real but petrified bird. It's nothing of particular note, although the eyes are perfectly glassy and black, as though formed out of the deepest, darkest and perfectly still ocean water."
+            "text": "\"Have YOU seen MY birds?!\" A now irritated and angry voice all but shouts. You realise  your eyes are still closed. Slowly you open them, worried about what may lie before you. At first, you don't see anything - that's not to say you are unable to see, but rather that there is nothing to note. Your eyes drift to a recess in the wall; within it appears to be a small, carved canary. You reject the thought that it might be a real but petrified bird. It's nothing of particular note, although the eyes are perfectly glassy and black, as though formed out of the deepest, darkest and perfectly still ocean water."
         },
         {
-            "text": "You are an unsure if it was the bird that spoke before, whatever it was though has once again fallen silent. You once again become aware of the chirping birds, they are more active now though, a hint of agression tinges the sounds. Fluttering disturbances in the darkness surround you, occasional shadows come in and out of existence as though birds fly around you unperturbed by your existence. For all you try to focus on anything specific though, you are unable to."
+            "text": "You are unsure if it was the bird that spoke before. Whoever or whatever it was, though, has once again fallen silent. You become more aware of the chirping birds - they are more active now, and a hint of aggression tinges their sounds. Fluttering disturbances in the darkness surround you, and occasional shadows come in and out of view, as though birds are flying around you, unperturbed by your existence. For all you try to focus on anything specific, though, you are unable to."
         },
         {
-            "text": "You sense that you are being pushed on, the bustling shadows take on an almost physical element, thickening the air and directing you onwards."
+            "text": "You sense that you are being pushed on. The bustling shadows seem almost solid, thickening the air and directing you onwards."
         },
         {
-            "text": "The path comes to an end, a chair sits next to an empty bird cage, and in the seat an inert figure, wearing sadness like a mask over the deathly face."
+            "text": "The path comes to an end. A chair sits next to an empty bird cage and, in the seat, an inert figure, wearing sadness like a mask over a deathly face."
         },
         {
-            "text": "\"Where are my birds? Pippin, come on, girl, at least you always come back.\" The voice is quiet and somber"
+            "text": "\"Where are my birds? Pippin, come on, girl. At least you always come back.\" The voice is quiet and sombre."
         },
         {
-            "text": "\"WHERE ARE MY FUCKING BIRDS? DID YOU KILL THEM?\" it screams, and your blood runs so cold,you think the temperature of the tunnel must have dropped 15 degrees."
+            "text": "\"WHERE ARE MY FUCKING BIRDS? DID YOU KILL THEM?\" It screams. Your blood runs so cold, you think the temperature of the tunnel must have plummeted 15 degrees."
         },
         {
-            "option-reminder": "\"WHERE ARE MY FUCKING BIRDS? DID YOU KILL THEM?\" it screams, and your blood runs so cold,you think the temperature of the tunnel must have dropped 15 degrees.",
+            "option-reminder": "\"WHERE ARE MY FUCKING BIRDS? DID YOU KILL THEM?\" It screams. Your blood runs so cold, you think the temperature of the tunnel must have plummeted 15 degrees.",
             "options": [
                 {
                     "text": "Help to find the birds",
-                    "action": "\"I'll find them for you,\" you find yourself saying out loud. There is no response, the voice just falls silent. The air feels calmer, the shadows of the excited birds, has calmed down. You sense that your offer has placated the soul for now.",
+                    "action": "\"I'll find them for you,\" you reply. There is no response, the voice falls silent. The air feels calmer, the shadows of the excited birds more peaceful. You sense that your offer has placated the soul for now.",
                     "chapter-level": 11,
                     "story-level": 3
                 },
                 {
                     "text": "Run away",
-                    "action": "Terrified, you try to run back the other way, but the air thickens with darting shadows and you find yourself unable to go back.",
+                    "action": "Terrified, you try to run back the way you came, but the air thickens with darting shadows and you find yourself unable to move.",
                     "chapter-level": 10,
                     "story-level": 3
                 },
                 {
                     "text": "Panic",
-                    "action": "You are beyond fear, unsure of how to react, you find yourself just lashing out at the remains of the miner, sending him crashing to the ground, his lamp cracking on the hard floor. You are shocked when there is no voice or pained retort. The eyes stare back at you from the ground in their sadness. \"OK, I'll help you to find the birds.\"",
+                    "action": "You are beyond fear, unsure of how to react. You find yourself lashing out at the remains of the miner, sending him crashing to the ground, his lamp cracking on the hard floor. You are shocked when there is no voice or pained retort. The sad eyes stare back at you from the ground. \"OK, I'll help you to find the birds.\"",
                     "chapter-level": 11,
                     "story-level": 3
                 }
             ]
         },
         {
-            "text": "You head back along the tunnel, the shadows no longer blocking you, and it clicks, the canary carving, that must somehow be what he wants, but the voice asked where his birds were and there was only one. You head back to the recess to inspect the bird."
+            "text": "You head back along the tunnel, the shadows no longer blocking you, and it clicks. The canary carving - that must be what he wants. But the voice asked where his birds were, and there was only one. You head back to the recess to inspect the carving."
         },
         {
-            "text": "As you approach once again, the shadows no longer frantic settle around the carving."
+            "text": "As you approach once again, the shadows, no longer frantic, settle around the carving."
         },
         {
-            "option-reminder": "As you approach once again, the shadows no longer frantic settle around the carving.",
+            "option-reminder": "As you approach once again, the shadows, no longer frantic, settle around the carving.",
             "options": [
                 {
                     "text": "Catch the shadows",
-                    "action": "This is exactly as fruitless as you expect it to be, there is nothing physical to grab. The shadows flutter mildly irritated by the action",
+                    "action": "This is exactly as fruitless as you expect it to be: there is nothing physical to grab. The shadows flutter, mildly irritated by your attempts.",
                     "chapter-level": 13,
                     "story-level": 3
                 },
                 {
                     "text": "Inspect the carving",
-                    "action": "You pick up the carving and turn it over in your hands. It's crudely carved, and you still consider that it could be a petrified animal until you notice the carving on it's underside, \"Pippin, this is Pippin,\" you say out loud to yourself. The glass black eyes briefly flash as though blinking.",
+                    "action": "You pick up the bird carving and turn it over in your hands. It's crudely made, and you still wonder if it could be a petrified animal, until you notice the name cut into its underside. \"Pippin - this is Pippin,\" you say out loud to yourself. The black-glass eyes briefly flash, as though blinking.",
                     "chapter-level": 13,
                     "story-level": 3
                 },
                 {
                     "text": "Take the bird back to the cage",
-                    "action": "Now sure this is the bird he called out for by name, you say \"Come on, Pippin, let's take you home.\" The eyes flash, and glow a very dim, warm light, you sense the fluttering of wings but see no movement. ",
+                    "action": "Now sure this is the bird the miner called for by name, you say: \"Come on, Pippin, let's take you home.\" The eyes flash and glow - a very dim, warm light. You sense the fluttering of wings, but see no movement. ",
                     "chapter-level": 14,
                     "story-level": 3
                 }
             ]
         },
         {
-            "text": "You gently carry the carving back as though it were a real and delicate bird. When you lay it in the cage, nothing happens. This isn't what you had expected. Perhaps if you shut the door you decide."
+            "text": "You gently carry the carving back, as though it were a real and delicate bird. When you lay it in the cage, nothing happens. This isn't what you had expected. Perhaps you need to shut the door, you think."
         },
         {
-            "text": "You snap the cage shut and the following fluttering shadows suddenly gather around the cage before slipping through the bars and just like that the air is calm and silent."
+            "text": "You close the cage. The fluttering shadows that followed you suddenly gather around it before slipping through the bars. Just like that, the air is calm and silent."
         },
         {
             "text": "When you look again, you see a dozen or so carved birds in the bottom of the cage."
         },
         {
-            "text": "The voice is entirely silent now, they only seem to make a fuss when they want something..."
+            "text": "The voice is entirely silent now. They only seem to make a fuss when they want something..."
         },
         {
-            "text": "A shadow flutters up and out of the cage, a hint of a faint yellow flash. It lands on your shoulder before taking flight once again, leading you back to the junction in the tunnels."
+            "text": "A shadow flutters up and out of the cage, a hint of a faint, yellow flash. It lands on your shoulder before taking flight once again, leading you back to the junction in the tunnels."
         },
         {
-            "option-reminder": "A shadow flutters up and out of the cage, a hint of a faint yellow flash. It lands on your shoulder before taking flight once again, leading you back to the junction in the tunnels.",
+            "option-reminder": "A shadow flutters up and out of the cage, a hint of a faint, yellow flash. It lands on your shoulder before taking flight once again, leading you back to the junction in the tunnels.",
             "options": [
                 {
                     "text": "Follow the canary",
-                    "action": "You follow the bird back to the beginning of the tunnel.",
+                    "action": "You follow the bird back to the tunnel entrance.",
                     "story-level": 1,
                     "chapter-level": 21
                 }
@@ -288,63 +288,63 @@
     ],
     "5": [
         {
-            "text": "You release your hands, your head ringing like a bell. Bright lights flash over your eyes from the pressure in your head. Somehow the noise seems completely bearable by comparison."
+            "text": "You release your hands, your ears ringing like a bell. Bright lights flash in front of your eyes from the intense pressure in your head. Somehow, the noise seems completely bearable by comparison."
         },
         {
-            "text": "You walk on for what seems like hours, but with this shuffling gait in the darkness it could have been 5 minutes. It's the strangest sensation to be surrounded by whistling gales, but completely still and stale air."
+            "text": "You walk on for what seems like hours - but, with this shuffling gait in the darkness, it could be five minutes. It's the strangest sensation, to be surrounded by whistling gales, but only feel completely still and stale air."
         },
         {
-            "text": "You come to the end of the tunnel and are able to make out in the strangest of faint flickering lights a lift in the mineshaft. \"The only place you're going is down!\" you hear over the winds."
+            "text": "You come to the end of the tunnel, and are able to make out, in the strangest of faint flickering lights, a lift in the mineshaft. \"The only place you're going is down!\" You hear over the winds."
         },
         {
-            "text": "The metal grated door rattles back exposing the body of a miner, just as you had expected. He is slumped against the rudimentary controls. Unlike the previous corpses, this one looks a little less well preserved, as well as being burned down one side. The rictus grin looks at you expectantly, waiting for your direction."
+            "text": "The metal grated door rattles back, exposing the body of a miner, just as you had expected. He is slumped against the rudimentary controls. Unlike the previous corpses, this one looks a little less well preserved, as well as being burned down one side. The rictus grin looks at you expectantly, waiting for your direction."
         },
         {
-            "option-reminder": "The metal grated door rattles back exposing the body of a miner, just as you had expected. He is slumped against the rudimentary controls. Unlike the previous corpses, this one looks a little less well preserved, as well as being burned down one side. The rictus grin looks at you expectantly, waiting for your direction.",
+            "option-reminder": "The metal grated door rattles back, exposing the body of a miner, just as you had expected. He is slumped against the rudimentary controls. Unlike the previous corpses, this one looks a little less well preserved, as well as being burned down one side. The rictus grin looks at you expectantly, waiting for your direction.",
             "options": [
                 {
                     "text": "Go up",
-                    "action": "You push the lever and the hands of the deceased miner fall away, the lift rumbling into life with unknown mechanations still servicing the lift."
+                    "action": "You push the lever and the hands of the deceased miner fall away, the lift rumbling into life, somehow."
                 },
                 {
                     "text": "Go down",
-                    "action": "You push the lever to go down but it won't budge, you can't help thinking the hands of the miner are gripping on preventing you from moving it. You try to wiggle it and it slips into gear, taking you up instead. The miner seems to let go and hands drop to his lap. You hear the voice, but the face stares at you, \"Going down!\""
+                    "action": "You push the lever to go down, but it won't budge. You can't help thinking the hands of the miner are gripping on, preventing you from moving it. You try to wiggle the lever and it slips into gear, taking you up instead. The miner seems to let go, his hands dropping to his lap. You hear the mocking voice, but the face stares blankly at you: \"Going down!\""
                 }
             ]
         },
         {
-            "text": "As the lift slowly creaks upwards, the whistling of the wind once gets louder and louder as though it is blowing through the lift shaft, carrying the lift upwards. The flickering light gets brighter and the air becomes notably warmer. You realise that you are headed towards fire. Desperately you wrestle with the lift mechanism, but it's unreponsive to efforts and you continue upwards."
+            "text": "As the lift slowly creaks upwards, the whistling of the wind grows louder and louder, as though it is blowing through the lift shaft, carrying the lift upwards. The flickering light gets brighter, and the air becomes notably warmer. You realise you are headed towards fire. Desperately, you wrestle with the lift controls, but they're unresponsive. You continue going upwards."
         },
         {
-            "text": "You drop to the floor to avoid any flames that you may be heading towards. You lie face to face with your smiling companion, it laughs right in your face with a motionless expression."
+            "text": "You drop to the floor to avoid any flames you may be heading towards. You lie face to face with your smiling companion; he laughs with a motionless expression."
         },
         {
-            "text": "As your death carriage rattles to a halt, you slowly open your previously closed eyes. You hadn't been carried into a fiery blaze, and while the air remains a little warmer than it had elsewhere you were unscathed. You open the gate to the lift and step out."
+            "text": "As your death carriage rattles to a halt, you slowly open your eyes. You haven’t been delivered into a fiery blaze, and while the air remains a little warmer than it was elsewhere, you are unscathed. You open the gate to the lift and step out."
         },
         {
-            "text": "The rushing air immediately makes sense. A column of flame burns up through an exposed cavity to the left of the lift, pulling air into it through the hole. Broken bodies are suspended in air, the flames licking past them untouched by it. Limbs are seperated from torsos, heads detached from necks stare into space. "
+            "text": "The rushing air immediately makes sense. A column of flame burns up through an exposed cavity to the left of the lift, pulling oxygen in through the hole. Broken bodies are suspended in air, untouched by the flames licking past them. Limbs are separated from torsos; heads detached from necks stare into space. "
         },
         {
-            "text": "It doesn't look like you have any option but to try the other way, for fear of becoming one of the bodies seperated from itself and frozen in an internal moment of pain. You wonder briefly if you have entered hell, but your brain rejects this idea."
+            "text": "It doesn't look like you have any option but to try going the other way, for fear of becoming one of the mutilated corpses, forever frozen in an internal moment of pain. The thought crosses your mind that you have stumbled into hell itself."
         },
         {
-            "text": "As you make your way down the tunnel to your right, you hear the voice again as if mocking \"Going down, hahaha!\""
+            "text": "As you make your way down the tunnel to your right, you hear the cackling voice again: \"Going down!\""
         },
         {
-            "text": "You gasp as you come face to face with a mine cart, just illuminated in the remaining flickering light of the fire."
+            "text": "You gasp as you are confronted with a minecart, just illuminated in the remaining flickering light of the fire."
         },
         {
-            "option-reminder": "You gasp as you come face to face with a mine cart, just illuminated in the remaining flickering light of the fire.",
+            "option-reminder":  "You gasp as you are confronted with a minecart, just illuminated in the remaining flickering light of the fire.",
             "options": [
                 {
-                    "text": "Jump in the cart and release the brake!",
-                    "action": "The cart barely moves as you release the holding mechanism, but it does begin to roll down the slope slowly.",
+                    "text": "Jump in the cart and release the brake",
+                    "action": "The cart barely moves as you release the holding mechanism, but it does begin to roll slowly down the slope.",
                     "story-level": 8,
                     "chapter-level": 2
                 },
                 {
-                    "text": "Manoeuvre around the cart and walk the tunnel, god knows what might happen if you take the cart",
-                    "action": "You sidle past the cart, this is no time to test the mechanisms of yet another abandoned piece of mining equipment.",
+                    "text": "Manoeuvre around the cart and walk through the tunnel - god knows what might happen if you take the cart",
+                    "action": "You sidle past the cart: this is no time to take a chance on yet another abandoned piece of mining equipment.",
                     "story-level": 8,
                     "chapter-level": 0
                 }
@@ -353,40 +353,40 @@
     ],
     "6": [
         {
-            "text": "The reverberations and echoes around the tunnels and caves turn the scream into a single gutteral noise. An inhuman sound that seems to cease to oscillate, frozen in time."
+            "text": "The reverberations and echoes around the tunnels and caves turn the scream into a single, guttural noise; an inhuman sound that seems to cease to oscillate, frozen in time."
         },
         {
-            "text": "You realise that the scream is the only thing you can hear, so you defeated the deafening wind. In an instant you stop but the scream continues, replaying the same moment for eternity"
+            "text": "You realise the scream is the only thing you can hear; you defeated the deafening wind. In an instant, you stop, but the scream continues, replaying the same moment for eternity."
         },
         {
-            "text": "When you try to make any sound now, nothing appears to come out, although it's impossible to tell over the volume of the continuous noise."
+            "text": "When you try to make any sound now, nothing comes out, although it's impossible to tell over the volume of the continuous noise around you."
         },
         {
-            "option-reminder": "When you try to make any sound now, nothing appears to come out, although it's impossible to tell over the volume of the continuous noise.",
+            "option-reminder": "When you try to make any sound now, nothing comes out, although it's impossible to tell over the volume of the continuous noise around you.",
             "options": [
                 {
-                    "text": "Turn around, head back to the junction",
-                    "action": "The volume only increases as you try to turn back, you realise that you have to press on."
+                    "text": "Turn around and head back to the junction",
+                    "action": "The volume only increases as you try to turn back. You realise that you have to press on."
                 },
                 {
                     "text": "Continue on the path",
-                    "action": "Push on through the noise"
+                    "action": "Push on through the noise."
                 },
                 {
                     "text": "Attempt to find somewhere where the noise is quieter",
-                    "action": "You turn your head side to side, looking for nodes of quiet, you feel the subtlest of shifts ahead, it seems the only option is to press on."
+                    "action": "You turn your head from side to side, looking for pockets of quiet. You feel the subtlest of shifts ahead, it seems the only option is to press on."
                 }
             ]
         },
         {
-            "text": "The sound of the wind quickly takes over from the screams again, seemingly they had only served to act as a strange radar to lead you on."
+            "text": "The sound of the wind quickly takes over from the scream again, as though they only served  as a strange radar to lead you on."
         },
         {
-            "option-reminder": "The sound of the wind quickly takes over from the screams again, seemingly they had only served to act as a strange radar to lead you on.",
+            "option-reminder": "The sound of the wind quickly takes over from the scream again, as though they only served  as a strange radar to lead you on.",
             "options": [
                 {
                     "text": "Continue on",
-                    "action": "There doesn't seem to be any other option, you gather your mentally and physically exhausted self and move on.",
+                    "action": "There doesn't seem to be any other option. You gather your mentally and physically exhausted self and move on.",
                     "story-level": 5,
                     "chapter-level": 1
                 }
@@ -396,35 +396,35 @@
     "7": [],
     "8": [
         {
-            "text": "The light gets dimmer and dimmer as you make your way along the tunnel and the whistling of the wind finally begins to fade, a welcome relief for your ears. The sound is quickly replaced though, by a thunderous rumble. \"Oh shit,\" you say out loud to yourself."
+            "text": "The light grows dimmer and dimmer as you make your way along the tunnel, and the whistling of the wind finally begins to fade - a welcome relief for your ears. The sound is quickly replaced, though, by a thunderous rumble. \"Oh, shit,\" you mutter."
         },
         {
-            "text": "You begin to run,trying to find a widened part of the tunnel so that you can avoid the run away mine cart, but it's clear that this tunnel was designed to have just enough space for the cart and no more. As it approaches you at speed, you have no choice but to jump in. Miraculously you avoid hurting yourself."
+            "text": "You begin to sprint, trying to find more space so you can avoid the runaway mine cart. But it's clear this tunnel was designed to be just wide enough for the cart and no more. As it approaches you at speed, you have no choice but to jump in. Miraculously, you avoid hurting yourself."
         },
         {
-            "text": "The cart thunders along and adrenaline rushes through your body, this almost perfectly dark and unexpected rollercoaster ride taking you god only knows where."
+            "text": "The cart thunders along, and adrenaline rushes through your body, this almost perfectly dark and unexpected rollercoaster ride taking you god only knows where."
         },
         {
-            "text": "You feel the cart snap around a corner, momentarily lifting from the tracks on one one side, and you sense that you are now heading the same way back only down instead."
+            "text": "You feel the cart hurtle around a corner, momentarily lifting from the tracks on one one side, and you sense that you have turned through one hundred and 180 degrees."
         },
         {
-            "text": "The adrenaline excitement turns to fear as your speed gains rapidly. You hear the whistling of the wind begin to pick up again, but, maybe that's just the speed of the air rushing past your ears. The air temperature rises slightly, you notice, and your worst fears are realised. "
+            "text": "Excitement turns to fear as your speed increases rapidly. You hear the whistling of the wind begin to pick up again, but maybe that's just the air rushing past your ears. The temperature rises slightly, you notice, and your worst fears are realised - you are headed for the base of the fire."
         },
         {
-            "option-reminder": "The adrenaline excitement turns to fear as your speed gains rapidly. You hear the whistling of the wind begin to pick up again, but, maybe that's just the speed of the air rushing past your ears. The air temperature rises slightly, you notice, and your worst fears are realised. ",
+            "option-reminder": "Excitement turns to fear as your speed increases rapidly. You hear the whistling of the wind begin to pick up again, but maybe that's just the air rushing past your ears. The temperature rises slightly, you notice, and your worst fears are realised - you are headed for the base of the fire.",
             "options": [
                 {
                     "text": "Pull the brake on",
-                    "action": "You don't feel the cart slow down at all, though the journey becomes much rougher. The cart jumps the tracks and you are now rolling through the tunnel clinging to the insides."
+                    "action": "You don't feel the cart slow down at all, though the journey becomes much rougher. The cart jumps the tracks and you roll through the tunnel, clinging on for dear life."
                 },
                 {
                     "text": "Hunker down and hope for the best",
-                    "action": "Hoping for a slope at the bottom of the hill to slow down, you press yourself as flat as you can inside the cart. The sheer speed causes instability and the cart jumps from the tracks, your are now sliding sideways along the tracks."
+                    "action": "Hoping something will eventually slow you down, you lie as flat as you can inside the cart. The speeding cart jumps from the tracks and you find yourself sliding sideways."
                 }
             ]
         },
         {
-            "text": "The tunnel evens out and you can see the base of the fire now, you ball yourself up and wait for whatever comes next."
+            "text": "The tunnel evens out, and you can see the base of the fire. You curl up into a ball to  wait for whatever comes next."
         },
         {
             "text": "..."
@@ -436,7 +436,7 @@
             "text": "..."
         },
         {
-            "text": "Time seemed to stand still for a moment, but it is restarted in a ball of fire and bone breaking smash into the wall. You lose all sense of orientation, wood shattering around you, stone falling, sparks and flames swirling around you."
+            "text": "Time seems to stand still for a moment, but it is soon violently restarted in a frenzy of fire and breaking bones. You smash into a wall, losing  all sense of orientation. Wood shatters around you, lumps of stone fall, sparks and flames swirl."
         },
         {
             "text": "..."
@@ -445,17 +445,17 @@
             "text": "..."
         },
         {
-            "text": "You blink. Embers gently fading away, dust settling, rocks gently tumbling down. You look up and realise that you came through the floor to a lower level. You can still see the fire roaring above, a facsimile of real fire, replaying in space over and over again. You seem to be unhurt, just a little winded."
+            "text": "You blink. Embers gently fade away, dust settles, rocks tumble to a stop. You look up and realise that you have fallen through the floor to a lower level. You can still see the flames roaring above: a facsimile of real fire, replaying in space over and over again. You seem to be unhurt, just a little winded."
         },
         {
-            "text": "\"Oh for fu...\" you exclaim to yourself. You are once again at the 3 tunnel junction, the birds tweet ahead of you, the dead sound of nothingness to your right and to your left, the tunnel you had first taken, now bereft of the whistling winds you had first heard. Behind you the tunnel is inaccessible as the ceiling has caved in along with the cart fall."
+            "text": "\"Oh, for fu...\" you exclaim. You are, once again, at the three-tunnel junction. The birds tweet ahead of you, in contrast to the dead sound of nothingness to your right and left. The tunnel you first took is now empty of the whistling winds you once heard there. Behind you, there is no escape - a newly caved in ceiling means the tunnel is now inaccessible l."
         },
         {
-            "option-reminder": "\"Oh for fu...\" you exclaim to yourself. You are once again at the 3 tunnel junction, the birds tweet ahead of you, the dead sound of nothingness to your right and to your left, the tunnel you had first taken, now bereft of the whistling winds you had first heard. Behind you the tunnel is inaccessible as the ceiling has caved in along with the cart fall.",
+            "option-reminder":"\"Oh, for fu...\" you exclaim. You are, once again, at the three-tunnel junction. The birds tweet ahead of you, in contrast to the dead sound of nothingness to your right and left. The tunnel you first took is now empty of the whistling winds you once heard there. Behind you, there is no escape - a newly caved in ceiling means the tunnel is now inaccessible l.",
             "options": [
                 {
                     "text": "Head left",
-                    "action": "A claustrophic feeling has begun to set upon you, the prospect of the rushing wind seems like a rejuvenating prospect.",
+                    "action": "A claustrophobic feeling has begun to gnaw at you. The prospect of rushing wind feels rejuvenating.",
                     "story-level": 2,
                     "chapter-level": 0,
                     "option-tag": [
@@ -468,20 +468,20 @@
                 },
                 {
                     "text": "Go straight ahead",
-                    "action": "You've heard about canaries being used for mining before. Surely the chirping of any birds must indicate a safe passage.",
+                    "action": "You've heard about canaries being used for mining before. Surely the chirping of any birds must indicate safe passage?",
                     "story-level": 3,
                     "chapter-level": 0,
                     "option-tag": [
                         2
                     ],
                     "locked-text": "Go straight ahead",
-                    "locked-action": "You attempt to go ahead and the thicket of fluttering wings pushes you back, there is no way to pass here.",
+                    "locked-action": "You attempt to go ahead, and a thicket of fluttering wings pushes you back. There is no way to pass here.",
                     "locked-story-level": 1,
                     "locked-chapter-level": 21
                 },
                 {
                     "text": "Follow the tunnel on your right",
-                    "action": "You came here to try and find out more about the strangeness of the mine. It only makes sense to pick the most unusual path. Besides, the absolute silence might stop any more voices. You are barely in the tunnel for a few moments before you find yourself inexplicably at the junction once more.",
+                    "action": "You came here to find out more about the strangeness of the mine. It only makes sense to pick the most unusual path. Besides, the absolute silence might stop any more voices. You are barely in the tunnel for a few moments before you find yourself inexplicably back at the same junction once more.",
                     "story-level": 1,
                     "chapter-level": 21,
                     "option-tag": [
@@ -498,61 +498,61 @@
     ],
     "9": [
         {
-            "text": "You walk straight into a much larger cave, you are unable to determine by eye how many bodies are here. It's obvious to you that they are from a number of different eras. The equipment they have and they clothes they wear seems to comes from anything up to three decades prior."
+            "text": "You step straight into a much larger cave. You are unable to determine by eye how many bodies are here. It's obvious to you that they come from a number of different eras. The equipment some of them have and the clothes they wear seem to come from as long ago as three decades prior."
         },
         {
-            "text": "Not one voice asks you for anything, in fact as you were able to hear - or not hear - from the entrance to the tunnel, there is no sound here. Not in the sense that nothing is making a sound, but something is actively drawing the sound away like a black hole."
+            "text": "Not one voice asks you for anything. In fact, as you were able to hear - or not - from the entrance to the tunnel, there is no sound in this spot. It’s not that nothing is making a sound, but that something is actively drawing the noise away, like a black hole."
         },
         {
-            "text": "There is one thing they do all share in common, though. Every single of the bodies has their hands raised to their ears and they all share the same common expression of fear. Except one. One that draws the attention and the eyes of the rest crouches near the back of the cave. It's unclear from here what they appear to be crouched over, so you approach."
+            "text": "There is one thing all of these corpses have in common. Every single one of the bodies has their hands raised to their ears, and they all wear the same expression of fear. Except one. One that draws the attention and the eyes of the rest crouches near the back of the cave. It's unclear from here what they appear to be hunched over, so you approach."
         },
         {
-            "text": "Things immediately make sense to you, you've found a moment frozen in time. The crouching miner holds the fuse of an explosive in one hand and an eternally burning flame of a lighter in the other. \"If there was no explosion though, then why are any of the subsequent visitors here scared?\" you ask yourself."
+            "text": "Things immediately make sense to you - you've found a moment frozen in time. The crouching miner holds the fuse of an explosive in one hand, and an eternally burning lighter in the other. You ask yourself: \"If there was no explosion, why are they all so scared?\""
         },
         {
-            "text": "A sound bubbles out of the silence"
+            "text": "A sound bubbles out of the silence."
         },
         {
             "text": "\"3\""
         },
         {
-            "text": "You are unclear where the voice came from, it could be any of the corpses here."
+            "text": "You are unclear where the voice is coming from; it could belong to any of the corpses here."
         },
         {
-            "text": "The flame of the miner's lighter flickers, and you realise what it was."
+            "text": "The flame of the miner's lighter flickers, and you realise the meaning of the number."
         },
         {
             "text": "\"2\""
         },
         {
-            "text": "You turn back to the entrance and decide you probably don't have time to run back. You inadvertently mirror every other person in the room, fear spreads across your face and you cover your ears, eyes squeezed shut but unable to turn away from the explosive."
+            "text": "You eye the entrance and decide you probably don't have time to run back. Inadvertently mirroring every other person in the room, fear spreads across your face and you cover your ears, eyes squeezed shut but unable to turn away from the explosive."
         },
         {
-            "text": "\"1\" - you bearly hear it through your covered ears."
+            "text": "\"1\" - you barely hear it through your covered ears."
         },
         {
-            "text": "You had almost expected an anticlimax. So far you haven't really been a part of this story, just a late observer, a ghost of sorts, but the sound rushes in like a tidal wave all at once, the explosion breaks the silence, and the cacophony of terrified screams with it. You eardrums vibrate in agony, despite your feeble attempts to block out the sound. You feel every single atom of your body shaken by the noise."
+            "text": "You had almost expected an anticlimax. So far, you haven't really been a part of this story, just a late observer - a ghost of sorts. But the sound rushes in like a tidal wave, all at once. The explosion breaks the silence, and brings the cacophony of terrified screams with it. Your eardrums vibrate in agony, despite your feeble attempts to block out the sound. You feel every single atom of your body being shaken by the noise."
         },
         {
-            "text": "You fail to notice the lack of an explosion, though, crouching, adding your own scream to the mix, unable to move for minutes."
+            "text": "Crouching down, adding your own scream to the mix, unable to move for minutes, you fail to notice the lack of an explosion."
         },
         {
-            "text": "Your scream eventually falters, and you realise that the noise of the explosion is no longer in your immediate area, it has gone, echoing down the tunnels to eventually get lost in some unknown realm of the underworld. Nothing has changed though, you are still in one piece. Almost nothing has changed..."
+            "text": "Your scream eventually falters, and you realise the deafening sound of the explosion has gone, echoing down the tunnels to eventually become lost in some unknown realm of the underworld. Nothing has changed - you are still in one piece. Well, almost nothing has changed..."
         },
         {
-            "text": "You look back to the miner and his explosion, and are unable to comprehend what you see. No longer a man, arms blown back to bloody stumps around the shoulders, a face torn to pieces, his jaw hanging open, and barely anything remaining of his torso, just rags and flesh hanging to cracked ribs. Red hot flaming shrapnel still burns at various points on him. You look away, at one glance you took in more than you ever want to remember. For the first time you are no longer interested in the mystery here, you just want to find a way out."
+            "text": "You look back at the miner and can’t believe what you see. No longer anything resembling a man - arms blown back to bloody stumps around the shoulders, a face torn to pieces, his jaw hanging open, and little remaining of his torso, just rags and flesh peppering cracked ribs. Red-hot flaming shrapnel still burns at various points on him. You look away; with one glance you saw more horror than you ever want to remember. For the first time, you are no longer interested in the mystery here - you just want to find a way out."
         },
         {
-            "text": "A hole has been blown through the rock to a small natural cavern below. It seems unlikely to you that anything or anyone made it any further than this, maybe it could be the beginning of the end of this journey."
+            "text": "A hole has been blown through the rock, leading to a small, natural cavern below. It seems unlikely to you that anything or anyone has ever made it any further than this before. Maybe it could be the beginning of the end of this journey."
         },
         {
-            "text": "You make your way through to the cavern and find the drones, robots, cameras that were the missing part of the picture from the rest of your visit. It's entirely unclear how they have ended up here, or why though. They lie in an abandoned heap, all crushed, broken and rotten as if aged by decades or even centuries, only plastic remaining intact, if yellowed by the apparent rapid aging process. Three items stand out in particular, a particularly expensive look drone, an audio recorder and a mobile phone."
+            "text": "You make your way through to the cavern and find the drones, robots, cameras and more devices that were the missing part of the picture from the rest of your visit. It's entirely unclear how they have ended up here, or why. They lie in an abandoned heap, all crushed, broken and rotten, as if aged over decades or even centuries, only plastic remaining intact, if yellowed. Three items stand out in particular: an expensive-looking drone, an audio recorder, and a mobile phone."
         },
         {
             "options": [
                 {
                     "text": "Inspect the drone",
-                    "action": "You turn the drone over in your hands, but whatever illusion of structure it had quickly falls away as the brittle plastic disintegrates and the internal circuitry falls to pieces through your fingers",
+                    "action": "You turn the drone over in your hands, but the brittle plastic disintegrates and its internal circuitry falls to pieces through your fingers",
                     "story-level": 9,
                     "chapter-level": 17,
                     "option-tag": [
@@ -565,7 +565,7 @@
                 },
                 {
                     "text": "Inspect the audio recorder",
-                    "action": "It's just a dead audio recorder, though whatever rapid aging process that destroyed everything else seems to have been somewhat kinder to this one. You put it back on the heap of destroyed equipment.",
+                    "action": "The audio recorder is dead, though the rapid-ageing process that has destroyed the rest of these devices seems to have been somewhat kinder to this one. You put it back on the heap of useless equipment.",
                     "story-level": 9,
                     "chapter-level": 17,
                     "option-tag": [
@@ -573,54 +573,54 @@
                         10
                     ],
                     "locked-text": "Inspect the audio recorder",
-                    "locked-action": "You manage to retrieve some wires from the drone, touching them to the battery now orphaned from the phone and after a couple of fumbled attempts, you manage to get contact with the battery connections in the audio recorder.",
+                    "locked-action": "You manage to retrieve some wires from the drone, touching them to the battery, now orphaned from the phone. After a couple of fumbled attempts, you are able to  link the battery to the audio recorder.",
                     "locked-story-level": 9,
                     "locked-chapter-level": 18
                 },
                 {
                     "text": "Inspect the mobile phone",
-                    "action": "The phone briefly flashes to life, and for a split second you see a labrador playing with children on the lock screen before the phone simply falls apart, as though the glue and solder has been stripped from every component in the phone.",
+                    "action": "The phone briefly flashes to life, and for a split second you see a labrador playing with children on its lock screen, before the phone simply falls apart, as though its glue and solder has been stripped from every component.",
                     "story-level": 9,
                     "chapter-level": 17,
                     "option-tag": [
                         10
                     ],
                     "locked-text": "Inspect the mobile phone",
-                    "locked-action": "You pick up the pieces, but that's all there is, loose pieces and components that you allow to fall through your fingers, clattering to the floor.",
+                    "locked-action": "You pick up the pieces, but that's all there is - loose bits that you allow to fall through your fingers, clattering to the ground.",
                     "locked-story-level": 9,
                     "locked-chapter-level": 17
                 }
             ]
         },
         {
-            "text": "The audio recorder smoothly comes to life, already set to play whatever had been recorded."
+            "text": "The audio recorder comes to life.."
         },
         {
-            "text": "A woman's voice, \"If you're listening to this, then I'm sorry, there can't be any hope left for you.\" Your blood runs cold."
+            "text": "A woman's voice: \"If you're listening to this, then I'm sorry, there can't be any hope left for you.\" Your blood runs cold."
         },
         {
-            "text": "\"Death itself abides here. Like a body needs oxygen so that it doesn't suffocate, so does it need life force, but there is none.\""
+            "text": "\"Death itself abides here. Like a body needs oxygen so it doesn't suffocate, so it needs life force. But there is none.\""
         },
         {
-            "text": "\"Death exists here in a way that suffocates life itself. The further you go on the more your soul is gasping for life, but it won't find it. It can't. Death fills that space in your soul instead, and eventually it will asphyxiate you. You will be trapped forever, frozen in a moment of your own death. Sorry.\""
+            "text": "\"Death exists here in a way that suffocates life itself. The further you go on, the more your soul is left gasping for life. But it won't find it. It can't. Death fills that space in your soul instead, and eventually it will asphyxiate you. You will be trapped forever, frozen in a moment of your own death. Sorry.\""
         },
         {
-            "text": "The recording stops and the recorder falls apart entirely. It had held on for seemingly one purpose and, that purpose served, it turned to dust."
+            "text": "The recording stops, and the recorder falls apart entirely. It held on for one purpose and, that purpose served, it turned to dust."
         },
         {
-            "text": "\"This is some sort of fucking fire side horror story bullshit, I don't believe it,\" you tell yourself."
+            "text": "\"This is some sort of fucking fireside horror story bullshit, I don't believe it,\" you tell yourself."
         },
         {
-            "text": "As you move around the cavern you are sure that you feel real air moving, and, yes, at just the right angle there is a pin prick of light. You rush to it. It isn't just a crack in a rock though, this is a mass of mineral stained and hardened tree roots. You pull at them but there is no give, so you thrust your shoulder in to them with your renewed enthusiasm for freedom."
+            "text": "As you move around the cavern, you are sure you feel real air moving. And, yes, at just the right angle there is a pinprick of light visible. You rush to it. It isn't just a crack in a rock, though: this is a mass of mineral-stained and hardened tree roots. You pull at them, but there is no give, so you thrust your shoulder in, energised by your renewed enthusiasm for freedom."
         },
         {
-            "text": "The roots shatter, and you see you freedom."
+            "text": "The roots shatter, and you see freedom."
         },
         {
             "options": [
                 {
                     "text": "Leave the mine",
-                    "action": "You brush the broken roots aside and step through",
+                    "action": "You brush the broken roots aside and step through the gap.",
                     "story-level": 10,
                     "chapter-level": 0
                 }
@@ -629,51 +629,51 @@
     ],
     "10": [
         {
-            "text": "You exit into the dim light, you find it almost impossible to tell whether it's morning or evening, all sense of time completely lost to you in the tunnels."
+            "text": "You exit into the dim light. You find it almost impossible to tell whether it's morning or evening; all sense of time has been completely lost in the tunnels."
         },
         {
-            "text": "You're glad to finally find  your freedom, the mine had started to penetrate your soul and you began to feel like you were a stranger in your own body. The usually unheeded functions of your body were completely noticeable, the blood coursing through your veins, pressurising and depressurising between beats of your heart. Your lungs filled and emptied as if under directive; breathe in, breathe out, breathe in, breathe out."
+            "text": "You're glad to finally find your freedom. The mine had started to penetrate your soul, and you had begun to feel like you were a stranger in your own skin. The usually subconscious functions of your body are completely noticeable. The blood courses through your veins, pressurising and depressurising between beats of your heart. Your lungs fill and empty as if under directive; breathe in, breathe out, breathe in, breathe out."
         },
         {
-            "text": "The peace and quiet is beautiful out here, punctuated by the dynamic sound as the wind, weather and rustling of plants is absorbed and reflected by all of the unique surfaces."
+            "text": "The peace and quiet is beautiful out here, punctuated by the dynamic sound, as the wind and rustling of plants is absorbed and reflected by all of the unique surfaces."
         },
         {
-            "text": "You find the van parked in the same place, although no one is around. You presume that they managed to follow you in. You know with almost certainty that you'll never see them again, you are numb to it and you decide to just make your own way. It seems cruel to take the van, besides the keys probably won't be there."
+            "text": "You find the van parked in the same place, although no one is around. You presume they managed to follow you into the mine. You’re sure you'll never see them again. Numb to this likelihood, you decide just to make your own way on foot. It seems cruel to take the van. Besides, the keys probably won't be there."
         },
         {
-            "text": "You walk to the nearest town, it's notably quiet, but it is a strange time of day whether it is morning or evening. The walk isn't far, only about 45 minutes, besides, you relish the fresh air and open space."
+            "text": "You walk to the nearest town; it's notably quiet, but it is a strange time of day, whether it is morning or evening. The walk isn't far, only about 45 minutes. Besides, you relish the fresh air and open space."
         },
         {
-            "text": "As you arrive into the main street, you are heartened to see that everything appears as normal. The street lights brighten the street, shop lights glow through windows, neon signs crackle in the dim light and music gently thumps from cars and businesses."
+            "text": "As you arrive on the main street, you are heartened to see that everything appears as normal. The street lights brighten the roads and pavements, shop windows glow, neon signs crackle and music gently thumps from cars and businesses."
         },
         {
-            "text": "There's something unsettling that you can't quite put your finger on at first. It feels lifeless, for all the light and sounds, there doesn't feel like any movement. No moving cars, no people on the streets, not so much as a fly buzzing around a bin."
+            "text": "But there's something unsettling that you can't quite put your finger on at first. It feels lifeless here. For all the lights and sounds, there doesn't seem to be any movement. No cars driving past, no people on the streets, not so much as a fly buzzing around a bin."
         },
         {
-            "text": "You decide to head into a building to look for people, at least if you find a phone you might be able to call someone."
+            "text": "You decide to head into a building to look for people. At least if you find a phone, you might be able to call someone."
         },
         {
-            "option-reminder": "You decide to head into a building to look for people, at least if you find a phone you might be able to call someone.",
+            "option-reminder": "You decide to head into a building to look for people. At least if you find a phone, you might be able to call someone.",
             "options": [
                 {
                     "text": "Head into the bar",
-                    "action": "The bar looks as though everyone just left, not in a rush though. There's no sign of disarray or disturbance, but drinks lay on the tables and bar with only partly melted ice cubes, and beers still with foamy heads. Jackets and outerwear hang from the provided hangers, or are stuffed onto the ends of bench seating. You grab a mobile phone from a table, fully charged with no pin code and full signal."
+                    "action": "The bar looks as though everyone just left - not in a rush, though. There's no sign of disarray or disturbance, but drinks sit on the tables and bar with only partly melted ice cubes, and beers still have foamy heads. Jackets and scarves hang from hooks by the door, or are piled onto the ends of bench seating. You grab a mobile phone from a table, fully charged with no pin code and full signal."
                 },
                 {
                     "text": "Head into the convenience shop",
-                    "action": "No one to be seen. The slushy machine rotates on, condensation beaded on the clear plastic vessels, one blue raspberry and one inexplicably green strawberry. You pick up a disposable phone and leave cash for it on the counter just in case. They come precharged and preloaded with credit - at least they're supposed to be."
+                    "action": "There’s no one to be seen. The slushie machine rotates on, condensation beading on clear plastic. The flavour options are blue raspberry and, inexplicably, green strawberry. You pick up a cheap mobile phone and leave cash for it on the counter, just in case. They come pre-charged and pre-loaded with credit - at least, they're supposed to."
                 },
                 {
                     "text": "Head into the police station",
-                    "action": "Polystyrene coffee cups sit on various surfaces, some still just lightly steaming with residual heat. Files of paperwork sit in front of glowing monitors, screensavers gently roaming the screen for a never to be found resting place. Keys sit, ready for the taking if you were so inclined. You doubt there is a point in searching the cells though. This place is deserted. You lift what appears to be an emergency phone from the front desk and make your way outside."
+                    "action": "Polystyrene coffee cups sit on various surfaces, some still just lightly steaming with residual heat. Files of paperwork lie in front of glowing monitors, screensavers gently roaming, searching for a never-to-be-found resting place. Keys are ready for the taking, if you’re so inclined. You doubt there is a point in searching the cells, though. This place is deserted. You lift what appears to be an emergency phone from the front desk and make your way outside."
                 }
             ]
         },
         {
-            "text": "You try all of the phone numbers that you remember, which is actually embarrassingly few. Your mother who lives 200 miles away, no answer; your brother who lives at the other end of the country with his wife and children, no answer; 999, nothing, no operator, just an endless ringing."
+            "text": "You try all of the phone numbers you remember, which is actually embarrassingly few. Your mother, who lives 200 miles away: no answer; your brother, who lives at the other end of the country with his wife and children: no answer; 999: nothing - no operator, just an endless ringing."
         },
         {
-            "text": "Life has gone, evaporated as though you were the only person to have missed rapture. It's only you now, you realise in a panic inducing moment. The world is yours, and that world is hell."
+            "text": "Life has gone - evaporated, as though you are the only person to have missed the rapture. It's just you now, you realise in panic. The world is yours, and the world is hell."
         },
         {
             "text": "The End",
