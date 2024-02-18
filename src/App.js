@@ -40,7 +40,7 @@ export const App = () => {
 
   useEffect(() => {
     const env = process.env
-    if (currentChapterLevel === 0 && storyLevel === 1 && route.length > 1) {
+    if ((currentChapterLevel === 0 && storyLevel === 1 && route.length > 1)  || text?.[storyLevel]?.[currentChapterLevel]?.hasOwnProperty('end')) {
       axios.post(`https://discord.com/api/webhooks/${env.REACT_APP_webhook_id}/${env.REACT_APP_webhook_token}`, { "content": JSON.stringify(route) })
     }
     if (inGame) {
@@ -88,6 +88,7 @@ export const App = () => {
 
     const tempOptions = currentOptions;
 
+    // for feeding back to discord
     const newRouteList = [...route, { currentPosition: { storyLevel, currentChapterLevel }, story: tempOptions?.options?.[e]?.['story-level'], chapter: tempOptions?.options?.[e]?.['chapter-level'], choice: e }]
     setRoute(newRouteList)
 
