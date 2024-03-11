@@ -31,7 +31,7 @@ export const App = () => {
   const handleTimerTick = () => {
     const newTick = !tick;
     setTick(newTick);
-  
+
     if (count <= timer && inGame) {
       setCount(count + 1);
     } else if (inGame && count > timer) {
@@ -50,21 +50,23 @@ export const App = () => {
 
 
   useEffect(() => {
-    const currentUrl = window.location.href.split('story=').pop();
-  axios.get(`https://raw.githubusercontent.com/crmcleod/cragglio/main/src/${currentUrl === 'mine' ? 'mine' : 'text'}.json`)
-    .then(res => {
-      setIntro(false);
-      setInGame(true);
-      const chapterText = res.data?.[`${storyLevel}`]?.[currentChapterLevel]?.text;
-      const textLength = chapterText?.split(' ').length || 0;
 
-      setTimer((textLength * 330 + 2000) / 100);
-      setCount(0);
-
-      setTimeout(() => {
-        setText(res.data);
-      }, 10);
-    });
+    const currentUrl = window.location.href.split('story=').pop()
+    axios.get(`https://raw.githubusercontent.com/crmcleod/cragglio/main/src/${currentUrl === 'mine' ? 'mine' : 'text'
+      }.json`).then(res => {
+        setTimeout(() => { // credit screen
+          setIntro(false)
+          setTimeout(() => { // title screen
+            setInGame(true)
+            const chapterText = res.data?.[`${storyLevel}`]?.[currentChapterLevel]?.text;
+            const textLength = chapterText?.split(' ').length || 0;
+        
+            setTimer((textLength * 330 + 2000) / 100);
+            setCount(0)
+          }, 10000)
+        }, 12000)
+        setText(res.data)
+      })
   }, [])
 
 
@@ -117,9 +119,20 @@ export const App = () => {
     // all option tags have been satisfied to lock route
     const optionSatisfied = currentOption?.['option-tag']?.every(tag => closedRoutes[tag]);
     setCurrentOptions(null)
-    setTimer((((((optionSatisfied ? currentOption?.['locked-action'] : currentOption?.action)
-      + (tempOptions?.['continuity-text'] ?
-        (' ' + tempOptions['continuity-text']) : '').split(' ')).length * 330)) + 2000) / 100)
+    setTimer(
+      (
+        (
+          (
+            (optionSatisfied ? currentOption?.['locked-action'] : currentOption?.action)
+            + (
+              tempOptions?.['continuity-text'] ?
+                (' ' + tempOptions['continuity-text']) :
+                ''
+            ).split(' ')
+          ).length * 330
+        ) + 2000
+      ) / 100
+    )
     setCount(0)
 
     setTimeout(() => {
