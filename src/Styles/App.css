@@ -69,6 +69,7 @@ p {
 .hidden {
   opacity: 0;
   filter: blur(2px);
+  user-select: none;
 }
 
 .visible {
@@ -121,4 +122,40 @@ p {
   color: rgb(218, 218, 218);
   box-sizing: border-box;
   padding: 0.5rem;
+}
+
+.skip-button {
+  padding: 0.5rem 4rem;
+  position: fixed;
+  bottom: 5rem;
+  margin: auto;
+  cursor: pointer;
+  transition: 0.5s ease all;
+  opacity: 0;
+  animation: fade-in 2s ease forwards;
+  transform: skew(-20deg) translate(-5%);
+  border: none;
+  outline: none;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: 'MedievalSharp';
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.42);
+  background-color:  rgb(19, 19, 19);
+
+  
+}
+
+.skip-button:hover {
+   color: rgba(255, 255, 255, 0.776);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
 }
