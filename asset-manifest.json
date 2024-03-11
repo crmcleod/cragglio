@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.77234e34.css",
-    "main.js": "/static/js/main.c76a1e35.js",
+    "main.css": "/static/css/main.57ec22c7.css",
+    "main.js": "/static/js/main.ece0fbb3.js",
     "static/media/buried.png": "/static/media/buried.80093818e8d48b6179e9.png",
     "index.html": "/index.html",
-    "main.77234e34.css.map": "/static/css/main.77234e34.css.map",
-    "main.c76a1e35.js.map": "/static/js/main.c76a1e35.js.map"
+    "main.57ec22c7.css.map": "/static/css/main.57ec22c7.css.map",
+    "main.ece0fbb3.js.map": "/static/js/main.ece0fbb3.js.map"
   },
   "entrypoints": [
-    "static/css/main.77234e34.css",
-    "static/js/main.c76a1e35.js"
+    "static/css/main.57ec22c7.css",
+    "static/js/main.ece0fbb3.js"
   ]
 }
