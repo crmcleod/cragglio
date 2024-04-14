@@ -15,7 +15,7 @@ export const App = () => {
   const [currentOptions, setCurrentOptions] = useState(null)
   // story refers to current section, chapter refers to index of subsection of story
   const [storyLevel, setStoryLevel] = useState(1)
-  const [currentChapterLevel, setCurrentChapterLevel] = useState(5)
+  const [currentChapterLevel, setCurrentChapterLevel] = useState(0)
   // purely for state driven class
   const [hidden, setHidden] = useState(true)
   const [inGame, setInGame] = useState(false)
@@ -60,7 +60,7 @@ export const App = () => {
             setInGame(true)
             const chapterText = res.data?.[`${storyLevel}`]?.[currentChapterLevel]?.text;
             const textLength = chapterText?.split(' ').length || 0;
-        
+
             setTimer((textLength * 330 + 2000) / 100);
             setCount(0)
           }, 10000)
@@ -119,20 +119,11 @@ export const App = () => {
     // all option tags have been satisfied to lock route
     const optionSatisfied = currentOption?.['option-tag']?.every(tag => closedRoutes[tag]);
     setCurrentOptions(null)
-    setTimer(
-      (
-        (
-          (
-            (optionSatisfied ? currentOption?.['locked-action'] : currentOption?.action)
-            + (
-              tempOptions?.['continuity-text'] ?
-                (' ' + tempOptions['continuity-text']) :
-                ''
-            ).split(' ')
-          ).length * 330
-        ) + 2000
-      ) / 100
-    )
+    const actionOrLockedAction = optionSatisfied ? currentOption?.['locked-action'] : currentOption?.action
+    const continuityText = tempOptions?.['continuity-text'] ? (' ' + tempOptions['continuity-text']) : ''
+    const rawReadingTime = ( actionOrLockedAction + ' ' + continuityText ).split(' ').length * 330
+    // 2000 extra ms for comfort reading shorter blocks; correction of 100 matches up with game counter
+    setTimer((rawReadingTime + 2000) / 100)
     setCount(0)
 
     setTimeout(() => {
